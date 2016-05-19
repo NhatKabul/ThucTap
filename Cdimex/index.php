@@ -41,10 +41,10 @@
 
 <body>
     <div class="container">
-    	<div class="nen row navbar navbar-default"><!-- banner -->
+    	<div class="nen row"><!-- banner -->
 		  <div class="col-md-2"><img src="image/logo/logo.png"></div>
 		  <div class="col-md-10">
-		  	<h3 align="center" class="font-chu">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
+		  	<h3 align="center" class="font-chu" size="5">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
 					VÀ PHÁT TRIỂN VĂN HÓA
 			</h3>
 		  </div>
@@ -64,7 +64,7 @@
 							<div class="col-md-2">
 							  	<button type="button" class="btn btn-default"><font size="2">Đăng Nhập</font></button>
 							</div>
-							<div class="col-md-2"><button type="button" class="btn btn-default"> <img src="image/icon/cart.png" width="20" height="18"><font size="2"> Giỏ Hàng</font></button></div>
+							<div class="col-md-2"><button type="button" class="btn btn-link"> <img src="image/icon/images.png" width="30" height="28"><font size="2"> Giỏ Hàng <a href=""></a></font></button></div>
 							
 						</div>
 						<div id="featured">
