@@ -1,0 +1,6 @@
+127.0.0.1 - - [19/May/2016:10:29:19 +0700] "GET / HTTP/1.1" 200 4152
+127.0.0.1 - - [19/May/2016:10:29:19 +0700] "GET /index.php?img=pngWrench HTTP/1.1" 200 741
+127.0.0.1 - - [19/May/2016:10:29:19 +0700] "GET /index.php?img=pngFolderGo HTTP/1.1" 200 694
+127.0.0.1 - - [19/May/2016:10:29:19 +0700] "GET /index.php?img=pngPlugin HTTP/1.1" 200 548
+127.0.0.1 - - [19/May/2016:10:29:19 +0700] "GET /index.php?img=gifLogo HTTP/1.1" 200 4549
+127.0.0.1 - - [19/May/2016:10:29:19 +0700] "GET /index.php?img=favicon HTTP/1.1" 200 1429
