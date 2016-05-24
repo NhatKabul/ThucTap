@@ -158,9 +158,178 @@
 					   <li><a href='#'><span>About</span></a></li>
 					</ul>
 				</div>
+				
+				<div class="col-md-3 col-md-6">
+				<div class="box_produt_hot">
+					<div class="title_box">
+						<h2>SẢN PHẨM BÁN CHẠY</h2>
+					</div>
+					<ul class="available_pc">
+						
+						<li>
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/laptop-apple-macbook-air-md711zp-b"><img alt="Laptop Macbook Air" src="image/sach/download.jpg" width="60" height="60"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/laptop-apple-macbook-air-md711zp-b">Laptop Macbook Air</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_new">20.900.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						<li>
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/laptop-toshiba-satellite-c40-a138"><img alt="Laptop Toshiba Satellite" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/19409_12896_satellite-c40-a102e-1.jpg?v=1446716755747"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/laptop-toshiba-satellite-c40-a138">Laptop Toshiba Satellite</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_new">9.000.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						<li>
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/laptop-hp-probook-440-g2-k9r17pa"><img alt="Laptop HP Probook" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/hp_probook_440_01.jpg?v=1446716755943"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/laptop-hp-probook-440-g2-k9r17pa">Laptop HP Probook</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_new">14.790.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						<li>
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/laptop-dell-vostro-14-5000-series"><img alt="Laptop Dell Vostro" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/dell_vostro_14_5480_01.jpg?v=1446716755953"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/laptop-dell-vostro-14-5000-series">Laptop Dell Vostro</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_new">11.510.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						<li>
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/laptop-asus-transformer-book-flip-tp550la-cj040h"><img alt="Laptop Asus Transformer" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/tp550ld-cj084h-01_rabz-50_ieap-cm_dv21-0f.jpg?v=1446716755810"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/laptop-asus-transformer-book-flip-tp550la-cj040h">Laptop Asus Transformer</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_new">10.590.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						<li>
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/bo-chia-cong-usb-ibuffalo-4-cong"><img alt="Bộ chia cổng USB" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/hub-usb-ibuffalo-bsh4u06bk.jpg?v=1446716757290"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/bo-chia-cong-usb-ibuffalo-4-cong">Bộ chia cổng USB</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_new">260.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						<li>
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/o-cung-di-dong-wd-my-passport-ultra-1tb"><img alt="Ổ cứng di động WD" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/wd-my-passport-ultra-black-01.jpg?v=1446716755797"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/o-cung-di-dong-wd-my-passport-ultra-1tb">Ổ cứng di động WD</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_old">1.890.000₫</span>
+								</div>
+								<div class="box_pr_price">
+									<span class="pr_new">1.850.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						<li>
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/chuot-hong-ngoai-elecom"><img alt="Chuột hồng ngoại" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/elecom-m-ir06drbk-01.jpg?v=1446716756750"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/chuot-hong-ngoai-elecom">Chuột hồng ngoại</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_old">239.000₫</span>
+								</div>
+								<div class="box_pr_price">
+									<span class="pr_new">209.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						<li>
+							
+							
+							
+							
+							
+							
+							<div class="box_pr_small">
+								<div class="box_pr_img">
+									<a href="/ban-phim-khong-day-rapoo-e2700"><img alt="Bàn phím không dây" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/rapoo-e2700-b-01.jpg?v=1446716755767"> </a>
+								</div>
+								<div class="box_pr_title">
+									<h3><a href="/ban-phim-khong-day-rapoo-e2700">Bàn phím không dây</a></h3>
+								</div>
+								
+								<div class="box_pr_price">
+									<span class="pr_new">780.000₫</span>
+								</div>
+								
+							</div>
+						</li>
+						
+						
+						<div class="more_view"><a href="/san-pham-noi-bat">Xem Thêm</a>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
     </div>
-
 </body>
 </html>
