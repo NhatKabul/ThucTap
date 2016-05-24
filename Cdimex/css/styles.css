@@ -38,7 +38,7 @@
 			color: #656565;
 			text-decoration: none;
 			text-transform: uppercase;
-			text-shadow: 0 1px 2px #b3cbd9;
+			/*text-shadow: 0 1px 2px #b3cbd9;*/
 			font-size: 13px;
 			font-weight: bold;
 			
@@ -64,14 +64,14 @@
 
 		/* The hover state of the menu/submenu links */
 		#cssmenu > ul li>a:hover, #cssmenu > ul li:hover>a {
-			color: #fff;
-			text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
-			background: #039cfd;
-			background: -webkit-linear-gradient(bottom, #039cfd, #80cdfb);
+			color: #039cfd;
+			/*text-shadow: 0 1px 0 rgba(0, 0, 0, .3);*/
+			background: #fcfdfd;
+			/*background: -webkit-linear-gradient(bottom, #039cfd, #80cdfb);
 			background: -ms-linear-gradient(bottom, #039cfd, #80cdfb); 
 			background: -moz-linear-gradient(bottom, #039cfd, #80cdfb);
-			background: -o-linear-gradient(bottom, #039cfd, #80cdfb);
-			border-color: transparent;
+			background: -o-linear-gradient(bottom, #039cfd, #80cdfb);*/
+			border-color: #85d1fd;
 		}
 
 		/* The arrow indicating a submenu */
@@ -228,3 +228,7 @@
 #featured .ui-tabs-hide{ 
 	display:none; 
 }
+.carousel-control.left, .carousel-control.right {
+	background-image:none;
+}
+

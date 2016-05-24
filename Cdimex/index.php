@@ -8,37 +8,41 @@
 <link rel="stylesheet" href="css/css.css" type="text/css">
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
 <script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js" ></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("#featured").tabs({fx:[{opacity: "toggle", duration: 'slow'}, {opacity: "toggle", duration: 'normal'}],
-			show: function(event, ui){
-				$('#featured .ui-tabs-panel .info').hide();
-				var infoheight=$('.info', ui.panel).height();
-				$('.info', ui.panel).css('height', '0px').animate({ 'height': infoheight }, 500);
-			}
-		}).tabs("rotate", 5000, true);
-		$('#featured').hover(
-			function(){ $('#featured').tabs('rotate', 0, true); },
-			function(){ $('#featured').tabs('rotate', 5000, true); }
-		);
-		$('#featured .ui-tabs-panel a.hideshow').click(function(){
-			if($(this).text()=='Hide'){
-				$(this).parent('.info').animate({ 'height': '0px' }, 500);
-				$(this).text('Show');
-			}
-			else{
-				$(this).parent('.info').animate({ 'height': '70px' }, 500);
-				$(this).text('Hide');
-			}
-			return false;
-		});
-	});
-</script>
-</head>
+<link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
 
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 70%;
+        margin: 50px;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: #0380ff;
+    }
+  </style>
+</head>
 <body>
     <div class="container">
     	<div class="nen row"><!-- banner -->
@@ -67,6 +71,32 @@
 							<div class="col-md-2"><button type="button" class="btn btn-link"> <img src="image/icon/images.png" width="30" height="28"><font size="2"> Giỏ Hàng <a href=""></a></font></button></div>
 							
 						</div>
+						<script type="text/javascript">
+							$(document).ready(function(){
+								$("#featured").tabs({fx:[{opacity: "toggle", duration: 'slow'}, {opacity: "toggle", duration: 'normal'}],
+									show: function(event, ui){
+										$('#featured .ui-tabs-panel .info').hide();
+										var infoheight=$('.info', ui.panel).height();
+										$('.info', ui.panel).css('height', '0px').animate({ 'height': infoheight }, 500);
+									}
+								}).tabs("rotate", 5000, true);
+								$('#featured').hover(
+									function(){ $('#featured').tabs('rotate', 0, true); },
+									function(){ $('#featured').tabs('rotate', 5000, true); }
+								);
+								$('#featured .ui-tabs-panel a.hideshow').click(function(){
+									if($(this).text()=='Hide'){
+										$(this).parent('.info').animate({ 'height': '0px' }, 500);
+										$(this).text('Show');
+									}
+									else{
+										$(this).parent('.info').animate({ 'height': '70px' }, 500);
+										$(this).text('Hide');
+									}
+									return false;
+								});
+							});
+						</script>
 						<div id="featured">
 						  <ul class="ui-tabs-nav">
 					        <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"><img src="image/slideshow/image1-small.jpg" alt="" /><span>15+ Excellent High Speed Photographs</span></a></li>
@@ -158,8 +188,52 @@
 					   <li><a href='#'><span>About</span></a></li>
 					</ul>
 				</div>
+				
 			</div>
-		</div>
+			<script src="js/jquery-2.2.2.min.js" type="text/javascript"></script>
+  			<script src="css/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+			$(document).on('ready', function() {
+		      $(".center").slick({
+		        dots: true,
+		        infinite: true,
+		        centerMode: true,
+		        slidesToShow: 3,
+		        slidesToScroll: 3
+		      });
+		    });
+			</script>
+			<div>
+			  <section class="center slider">
+			    <div>
+			      <img src="http://placehold.it/350x300?text=1">
+			    </div>
+			    <div>
+			      <img src="http://placehold.it/350x300?text=2">
+			    </div>
+			    <div>
+			      <img src="http://placehold.it/350x300?text=3">
+			    </div>
+			    <div>
+			      <img src="http://placehold.it/350x300?text=4">
+			    </div>
+			    <div>
+			      <img src="http://placehold.it/350x300?text=5">
+			    </div>
+			    <div>
+			      <img src="http://placehold.it/350x300?text=6">
+			    </div>
+			    <div>
+			      <img src="http://placehold.it/350x300?text=7">
+			    </div>
+			    <div>
+			      <img src="http://placehold.it/350x300?text=8">
+			    </div>
+			    <div>
+			      <img src="http://placehold.it/350x300?text=9">
+			    </div>
+			  </section>
+			</div>
     </div>
 
 </body>
