@@ -29,7 +29,7 @@
 			position: relative;
 			margin: 0;
 			border-top: 1px #3a3a3a;
-			border-bottom: 1px solid #dbf0fc;
+			border-bottom: 1px solid #85d1fd;
 			padding: 11px 20px;
 			width: 200px;
 
@@ -38,9 +38,9 @@
 			color: #656565;
 			text-decoration: none;
 			text-transform: uppercase;
-			text-shadow: 0 1px 1px #bbbcbc;
+			text-shadow: 0 1px 2px #b3cbd9;
 			font-size: 13px;
-			font-weight: 300;
+			font-weight: bold;
 			
 
 			/* Background & effects */
@@ -66,11 +66,11 @@
 		#cssmenu > ul li>a:hover, #cssmenu > ul li:hover>a {
 			color: #fff;
 			text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
-			background: #39b0fb;
-			background: -webkit-linear-gradient(bottom, #39b0fb, #97d6fb);
-			background: -ms-linear-gradient(bottom, #39b0fb, #97d6fb); 
-			background: -moz-linear-gradient(bottom, #39b0fb, #97d6fb);
-			background: -o-linear-gradient(bottom, #39b0fb, #97d6fb);
+			background: #039cfd;
+			background: -webkit-linear-gradient(bottom, #039cfd, #80cdfb);
+			background: -ms-linear-gradient(bottom, #039cfd, #80cdfb); 
+			background: -moz-linear-gradient(bottom, #039cfd, #80cdfb);
+			background: -o-linear-gradient(bottom, #039cfd, #80cdfb);
 			border-color: transparent;
 		}
 
@@ -136,7 +136,7 @@
 			position: relative;
 			margin: 0;
 			border-top: 1px #3a3a3a;
-			border-bottom: 1px solid #dbf0fc;
+			border-bottom: 1px solid #85d1fd;
 			padding: 15px 20px;
 			width: 200px;
 			height: 50px;

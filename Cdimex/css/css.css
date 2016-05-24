@@ -1,16 +1,10 @@
 .nen {
-   background-image: url('../image/bg/bg-logo.jpg');
+   /*background-image: url('../image/bg/bg-logo.jpg');*/
+   background-color: white;
 }
 .font-chu{
 	font-family: "Times New Roman", Times, serif;
-	color:#CC9933;
+	color:#fca600;
 	font-weight: bold;
-	font-size:35px;
-}
-.Tieude
-{
-	font-family: "Times New Roman", Times, serif;
-	color:#000000;
-	font-weight: bold;
-	font-size:25px;
+	font-size:30px;
 }
