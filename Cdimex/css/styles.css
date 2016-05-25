@@ -29,7 +29,7 @@
 			position: relative;
 			margin: 0;
 			border-top: 1px #3a3a3a;
-			border-bottom: 1px solid #85d1fd;
+			border-bottom: 1px solid #d0d0d0;
 			padding: 11px 20px;
 			width: 200px;
 
@@ -64,14 +64,14 @@
 
 		/* The hover state of the menu/submenu links */
 		#cssmenu > ul li>a:hover, #cssmenu > ul li:hover>a {
-			color: #039cfd;
+			color: #feffff;
 			/*text-shadow: 0 1px 0 rgba(0, 0, 0, .3);*/
-			background: #fcfdfd;
+			background: #01baff;
 			/*background: -webkit-linear-gradient(bottom, #039cfd, #80cdfb);
 			background: -ms-linear-gradient(bottom, #039cfd, #80cdfb); 
 			background: -moz-linear-gradient(bottom, #039cfd, #80cdfb);
 			background: -o-linear-gradient(bottom, #039cfd, #80cdfb);*/
-			border-color: #85d1fd;
+			border-color: #01baff;
 		}
 
 		/* The arrow indicating a submenu */
@@ -104,7 +104,7 @@
 
 		/* Changing the color of the arrow on hover */
 		#cssmenu > ul li>a:hover::after, #cssmenu > ul li:hover>a::after {
-			border-left: 4px solid #039cfd;
+			border-left: 4px solid #fcfdfd;
 		}
 
 		#cssmenu > ul li>a:hover::before, #cssmenu > ul li:hover>a::before {
@@ -135,7 +135,7 @@
 			display: block;
 			position: relative;
 			margin: 0;
-			border-bottom: 1px solid #85d1fd;
+			border-bottom: 1px solid #d0d0d0;
 			padding: 15px 20px;
 			width: 200px;
 			height: 50px;
@@ -153,8 +153,9 @@
 			position: relative;
 			margin: 50px;
 			border-bottom: 3px solid #85d1fd;
-			padding: 15px 20px;
-			width: 90%;
+			padding: 20px 20px;
+			left: -45px;
+			width: 99%;
 			height: 50px;
 
 			/* Typography */

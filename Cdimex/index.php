@@ -207,6 +207,9 @@
 				  <div id="phanvung">
 					<p><b>Thời Trang</b></p>
 				  </div>
+				  <div>
+				  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
+				  </div>
 				  <section class="center slider">
 				    <div>
 				      <img src="http://placehold.it/350x300?text=1">
@@ -239,37 +242,8 @@
 				  <div id="phanvung">
 					<p><b>Thiết Bị Số</b></p>
 				  </div>
-				  <section class="center slider">
-				    <div>
-				      <img src="http://placehold.it/350x300?text=1">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=2">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=3">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=4">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=5">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=6">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=7">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=8">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=9">
-				    </div>
-				  </section>
-				  <div id="phanvung">
-					<p><b>Phụ Kiện</b></p>
+				  <div>
+				  	<img src="image/banner/banner.jpg" width="100%" height="250px">
 				  </div>
 				  <section class="center slider">
 				    <div>
@@ -302,6 +276,44 @@
 				  </section>
 				  <div id="phanvung">
 					<p><b>Phụ Kiện</b></p>
+				  </div>
+				  <div>
+				  	<img src="image/banner/dich-vu-dang-tin.jpg" width="100%" height="250px">
+				  </div>
+				  <section class="center slider">
+				    <div>
+				      <img src="http://placehold.it/350x300?text=1">
+				    </div>
+				    <div>
+				      <img src="http://placehold.it/350x300?text=2">
+				    </div>
+				    <div>
+				      <img src="http://placehold.it/350x300?text=3">
+				    </div>
+				    <div>
+				      <img src="http://placehold.it/350x300?text=4">
+				    </div>
+				    <div>
+				      <img src="http://placehold.it/350x300?text=5">
+				    </div>
+				    <div>
+				      <img src="http://placehold.it/350x300?text=6">
+				    </div>
+				    <div>
+				      <img src="http://placehold.it/350x300?text=7">
+				    </div>
+				    <div>
+				      <img src="http://placehold.it/350x300?text=8">
+				    </div>
+				    <div>
+				      <img src="http://placehold.it/350x300?text=9">
+				    </div>
+				  </section>
+				  <div id="phanvung">
+					<p><b>Phụ Kiện</b></p>
+				  </div>
+				  <div>
+				  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
 				  </div>
 				  <section class="center slider">
 				    <div>
@@ -495,6 +507,7 @@
 							</div>
 						</ul>
 					</div>
+
 				</div>
 
 			</div>
