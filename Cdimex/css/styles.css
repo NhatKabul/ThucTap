@@ -104,7 +104,7 @@
 
 		/* Changing the color of the arrow on hover */
 		#cssmenu > ul li>a:hover::after, #cssmenu > ul li:hover>a::after {
-			border-left: 4px solid #fff;
+			border-left: 4px solid #039cfd;
 		}
 
 		#cssmenu > ul li>a:hover::before, #cssmenu > ul li:hover>a::before {
@@ -135,7 +135,6 @@
 			display: block;
 			position: relative;
 			margin: 0;
-			border-top: 1px #3a3a3a;
 			border-bottom: 1px solid #85d1fd;
 			padding: 15px 20px;
 			width: 200px;
@@ -148,6 +147,24 @@
 			text-transform: uppercase;
 			font-size: 17px;
 			font-weight: bold;
+		}
+#phanvung > p{
+			display: block;
+			position: relative;
+			margin: 50px;
+			border-bottom: 3px solid #85d1fd;
+			padding: 15px 20px;
+			width: 90%;
+			height: 50px;
+
+			/* Typography */
+			font-family: Helvetica, Arial, sans-serif;
+			color: #656565;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 17px;
+			font-weight: bold;
+			text-align: center;
 		}
 #featured{ 
 	width:400px; 
