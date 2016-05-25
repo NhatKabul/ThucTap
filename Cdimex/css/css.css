@@ -809,16 +809,21 @@ img {
     padding: 15px;
 }
 .box_pr_price span.pr_old {
-    color: #e24d85;
+    color: #0066FF;
     font-size: 12px;
     text-decoration: line-through;
 }
 .box_pr_price span.pr_new {
-    color: #e24d85;
+    color: #0066FF;
     font-size: 18px;
 }
 .box_pr_img img {
     width: 100%;
+}
+.slie_pr_img img
+{
+	width:50%;
+	height:50%;
 }
 .box_pr_title h3 {
     line-height: 16px;
