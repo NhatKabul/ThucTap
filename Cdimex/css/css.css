@@ -796,6 +796,13 @@ img {
     font-family: "Roboto",sans-serif;
     font-size: 14px;
     line-height: 18px;
+    text-decoration: none;
+}
+.box_pr_title h3 a:hover {
+    color: #68c6fd;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 18px;
 }
 .news_cont {
     color: #999;

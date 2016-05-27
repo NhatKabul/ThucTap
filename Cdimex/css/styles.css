@@ -153,16 +153,16 @@
 			position: relative;
 			margin: 50px;
 			border-bottom: 5px solid #85d1fd;
-			padding: 20px 20px;
+			padding: 40px 20px;
 			left: -45px;
 			width: 99%;
-			height: 50px;
+			height: 30px;
 
 			/* Typography */
 			font-family: Helvetica, Arial, sans-serif;
 			color: #656565;
 			text-decoration: none;
-			text-transform: none;
+			text-transform: uppercase;
 			font-size: 17px;
 			font-weight: bold;
 			text-align: center;
