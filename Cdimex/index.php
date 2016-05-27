@@ -151,8 +151,74 @@
 				<div id="cssmenu" class="row navbar-left">
 					<ul>
 					   <li class="active"><p>Danh Mục</p></li>
-					   <li class="active"><a href='index.html'><span>Home</span></a></li>
-					   <li class="has-sub"><a href='#'><span>Products</span></a>
+					   <li class="active"><a href='index.html'><span>Trang Chủ</span></a></li>
+					   <li class="has-sub"><a href='#'><span>Sách Học Tiếng Anh </span></a>
+					      <ul>
+					         <li class="active"><a href='#'><span>Primary</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Secondary</span></a>
+					         </li>
+							 <li class="active"><a href='#'><span>Adults</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Skills</span></a>
+					         </li>
+							 <li class="active"><a href='#'><span>Exams</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Professional English</span></a>
+					         </li>
+					      </ul>
+					   </li>
+					   <li class="has-sub"><a href='#'><span>Sách Giáo Dục</span></a>
+						<ul>
+					         <li class="active"><a href='#'><span>Primary</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Secondary</span></a>
+					         </li>
+							 <li class="active"><a href='#'><span>Adults</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Skills</span></a>
+					         </li>
+							 <li class="active"><a href='#'><span>Exams</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Professional English</span></a>
+					         </li>
+					     </ul>
+					   </li>
+					   <li class="has-sub"><a href='#'><span>Sách Chuyên Khảo</span></a>
+							<ul>
+					         <li class="active"><a href='#'><span>Primary</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Secondary</span></a>
+					         </li>
+							 <li class="active"><a href='#'><span>Adults</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Skills</span></a>
+					         </li>
+							 <li class="active"><a href='#'><span>Exams</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Professional English</span></a>
+					         </li>
+					     </ul>
+					   </li>
+					   </li>
+					   <li class="has-sub"><a href='#'><span>Sách Giảm Giá</span></a>
+							<ul>
+					         <li class="active"><a href='#'><span>Primary</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Secondary</span></a>
+					         </li>
+							 <li class="active"><a href='#'><span>Adults</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Skills</span></a>
+					         </li>
+							 <li class="active"><a href='#'><span>Exams</span></a>
+					         </li>
+					         <li class="active"><a href='#'><span>Professional English</span></a>
+					         </li>
+					     </ul>
+					   </li>
+					   </li>
+					   <li class="has-sub"><a href='#'><span>Exams</span></a>
 					      <ul>
 					         <li class="has-sub"><a href='#'><span>Product 1</span></a>
 					            <ul>
@@ -168,26 +234,7 @@
 					         </li>
 					      </ul>
 					   </li>
-					   <li><a href='#'><span>About</span></a></li>
-					   <li><a href='#'><span>Contact</span></a></li>
-					   <li><a href='#'><span>About</span></a></li>
-					   <li class="has-sub"><a href='#'><span>Products</span></a>
-					      <ul>
-					         <li class="has-sub"><a href='#'><span>Product 1</span></a>
-					            <ul>
-					               <li><a href='#'><span>Sub Item</span></a></li>
-					               <li><a href='#'><span>Sub Item</span></a></li>
-					            </ul>
-					         </li>
-					         <li class="has-sub"><a href='#'><span>Product 2</span></a>
-					            <ul>
-					               <li><a href='#'><span>Sub Item</span></a></li>
-					               <li><a href='#'><span>Sub Item</span></a></li>
-					            </ul>
-					         </li>
-					      </ul>
-					   </li>
-					   <li><a href='#'><span>About</span></a></li>
+					   <li><a href='#'><span>Professional English</span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -385,14 +432,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-apple-macbook-air-md711zp-b"><img alt="Laptop Macbook Air" src="image/sach/download.jpg" width="60" height="60"> </a>
+										<a href="/laptop-apple-macbook-air-md711zp-b"><img alt="Laptop Macbook Air" src="image/BanChay/product_s2123.jpg" width="60" height="60"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-apple-macbook-air-md711zp-b">Laptop Macbook Air</a></h3>
+										<h3><a href="/laptop-apple-macbook-air-md711zp-b">Boost! Grammar 4</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">20.900.000₫</span>
+										<span class="pr_new">100.000₫</span>
 									</div>
 									
 								</div>
@@ -401,10 +448,10 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-toshiba-satellite-c40-a138"><img alt="Laptop Toshiba Satellite" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/19409_12896_satellite-c40-a102e-1.jpg?v=1446716755747"> </a>
+										<a href="/laptop-toshiba-satellite-c40-a138"><img alt="Laptop Toshiba Satellite" src="image/BanChay/2.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-toshiba-satellite-c40-a138">Laptop Toshiba Satellite</a></h3>
+										<h3><a href="/laptop-toshiba-satellite-c40-a138">Inspiration 4</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
