@@ -167,19 +167,67 @@
 			font-weight: bold;
 			text-align: center;
 		}
+.btn-themgiohang{
+			display: block;
+			position: relative;
+			padding: 5px 13px;
+			width: 100%;
+			height: 50px;
+}
+.pos-tensach{
+			top: 10px;
+			display: block;
+			position: relative;
+			padding: 0px 13px;
+}
+.pos-giasach{
+			top: 5px;
+			display: block;
+			position: relative;
+			padding: 0px 13px;
+}
+.font-tensach{
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			text-align: left;
+			color: #000000;
+}
+.font-giasach{
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 15px;
+			text-align: left;
+			font-weight: bold;
+			color: #000000;
+}
+.font-giamgia{
+			margin: 10px;
+			padding: 5px 5px;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 15px;
+			text-align: center;
+			color: #feffff;
+			background-color: #68c6fd;
+}
+.font-giadau{
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 12px;
+			text-align: left;
+			color: #9e9e9e;
+			text-decoration: line-through;
+}
 #featured{ 
 	width:400px; 
 	padding-right:970px; 
 	position:relative; 
-	height:250px; overflow:hidden;
+	height:260px; overflow:hidden;
 	background:#fff;
 }
 #featured ul.ui-tabs-nav{ 
 	position:absolute; 
-	top:0; left:705px; 
+	top:5px; left:690px; 
 	list-style:none; 
 	padding:0; margin:0; 
-	width:263px; height:250px;
+	width:280px; height:250px;
 	overflow:auto;
 	overflow-x:hidden;
 }
@@ -214,13 +262,13 @@
 	background:#ccc; 
 }
 #featured .ui-tabs-panel{ 
-	width:715px; height:250px; 
+	width:700px; height:255px; 
 	background:#999; position:relative;
 }
 #featured .ui-tabs-panel .info{ 
 	position:absolute; 
 	bottom:0; left:0; 
-	height:70px; 
+	height:65px; 
 	background: url('image/slideshow/transparent-bg.png'); 
 }
 #featured .ui-tabs-panel .info a.hideshow{

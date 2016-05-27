@@ -48,8 +48,8 @@
 </head>
 <body>
     <div class="container">
-    	<div class="nen row"><!-- banner -->
-		  <div class="col-md-2"><img src="image/logo/logo.png"></div>
+    	<div class="nen row navbar"><!-- banner -->
+		  <div class="col-md-2 row"><img src="image/logo/logo.png"></div>
 		  <div class="col-md-10">
 		  	<h3 align="center" class="font-chu" size="5">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
 					VÀ PHÁT TRIỂN VĂN HÓA
@@ -109,42 +109,42 @@
 
 					    	<!-- First Content -->
 						    <div id="fragment-1" class="ui-tabs-panel" style="">
-								<img src="image/slideshow/image1.jpg" alt="" />
-								 <div class="info" >
-									<a class="hideshow" href="#" >Hide</a>
+								<img src="image/slideshow/banner.jpg" alt="" width="700" height="255" />
+								 <!-- <div class="info" >
+									<a class="hideshow" href="#" >X</a>
 									<h2><a href="#" >15+ Excellent High Speed Photographs</a></h2>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt condimentum lacus. Pellentesque ut diam....<a href="#" >read more</a></p>
-								 </div>
+								 </div> -->
 						    </div>
 
 						    <!-- Second Content -->
 						    <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">
-								<img src="image/slideshow/image2.jpg" alt="" />
-								 <div class="info" >
-									<a class="hideshow" href="#" >Hide</a>
+								<img src="image/slideshow/banner1.jpg" alt="" width="700" height="255" />
+								 <!-- <div class="info" >
+									<a class="hideshow" href="#" >X</a>
 									<h2><a href="#" >20 Beautiful Long Exposure Photographs</a></h2>
 									<p>Vestibulum leo quam, accumsan nec porttitor a, euismod ac tortor. Sed ipsum lorem, sagittis non egestas id, suscipit....<a href="#" >read more</a></p>
-								 </div>
+								 </div> -->
 						    </div>
 
 						    <!-- Third Content -->
 						    <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
-								<img src="image/slideshow/image3.jpg" alt="" />
-								 <div class="info" >
-									<a class="hideshow" href="#" >Hide</a>
+								<img src="image/slideshow/dich-vu-dang-tin.jpg" alt="" width="700" height="255" />
+								 <!-- <div class="info" >
+									<a class="hideshow" href="#" >X</a>
 									<h2><a href="#" >35 Amazing Logo Designs</a></h2>
 									<p>liquam erat volutpat. Proin id volutpat nisi. Nulla facilisi. Curabitur facilisis sollicitudin ornare....<a href="#" >read more</a></p>
-						         </div>
+						         </div> -->
 						    </div>
 
 						    <!-- Fourth Content -->
 						    <div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" style="">
-								<img src="image/slideshow/image4.jpg" alt="" />
-								 <div class="info" >
-									<a class="hideshow" href="#" >Hide</a>
+								<img src="image/slideshow/LOFWI_banner-sach.png" alt="" width="700" height="255" />
+								 <!-- <div class="info" >
+									<a class="hideshow" href="#" >X</a>
 									<h2><a href="#" >Create a Vintage Photograph in Photoshop</a></h2>
 									<p>Quisque sed orci ut lacus viverra interdum ornare sed est. Donec porta, erat eu pretium luctus, leo augue sodales....<a href="#" >read more</a></p>
-						         </div>
+						         </div> -->
 						    </div>
 						</div>
 				</div>
@@ -211,31 +211,53 @@
 				  </div>
 				  <section class="center slider">
 				    <div>
-				      <img src="http://placehold.it/350x300?text=1">
+				      <img src="image/HinhSach/9780132056779.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=2">
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=3">
+				      <img src="image/HinhSach/9780132336765.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=4">
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				   <div>
+				      <img src="image/HinhSach/9780132881876.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=5">
+				      <img src="image/HinhSach/9780133437546.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=6">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=7">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=8">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=9">
+				      <img src="image/HinhSach/9780136038993.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				  </section>
 				  <div id="phanvung">
@@ -246,31 +268,53 @@
 				  </div>
 				  <section class="center slider">
 				    <div>
-				      <img src="http://placehold.it/350x300?text=1">
+				      <img src="image/HinhSach/9780132056779.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=2">
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=3">
+				      <img src="image/HinhSach/9780132336765.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=4">
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				   <div>
+				      <img src="image/HinhSach/9780132881876.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=5">
+				      <img src="image/HinhSach/9780133437546.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=6">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=7">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=8">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=9">
+				      <img src="image/HinhSach/9780136038993.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				  </section>
 				  <div id="phanvung">
@@ -281,66 +325,53 @@
 				  </div>
 				  <section class="center slider">
 				    <div>
-				      <img src="http://placehold.it/350x300?text=1">
+				      <img src="image/HinhSach/9780132056779.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=2">
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=3">
+				      <img src="image/HinhSach/9780132336765.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=4">
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				   <div>
+				      <img src="image/HinhSach/9780132881876.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=5">
+				      <img src="image/HinhSach/9780133437546.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <div>
-				      <img src="http://placehold.it/350x300?text=6">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=7">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=8">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=9">
-				    </div>
-				  </section>
-				  <div id="phanvung">
-					<p><b>Phụ Kiện</b></p>
-				  </div>
-				  <div>
-				  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
-				  </div>
-				  <section class="center slider">
-				    <div>
-				      <img src="http://placehold.it/350x300?text=1">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=2">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=3">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=4">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=5">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=6">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=7">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=8">
-				    </div>
-				    <div>
-				      <img src="http://placehold.it/350x300?text=9">
+				      <img src="image/HinhSach/9780136038993.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				  </section>
 				</div>
