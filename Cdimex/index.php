@@ -150,9 +150,15 @@
 				</div>
 				<div id="cssmenu" class="row navbar-left">
 					<ul>
+<<<<<<< HEAD
 					   <li class="active"><p>Danh Mục</p></li>
 					   <li class="active"><a href='index.html'><span>Trang Chủ</span></a></li>
 					   <li class="has-sub"><a href='#'><span>Sách Học Tiếng Anh </span></a>
+=======
+					   <li><p>Danh Mục</p></li>
+					   <li><a href='index.html'><span>Home</span></a></li>
+					   <li class="has-sub"><a href='#'><span>Products</span></a>
+>>>>>>> origin/master
 					      <ul>
 					         <li class="active"><a href='#'><span>Primary</span></a>
 					         </li>
@@ -584,9 +590,6 @@
 							</div>
 						</ul>
 					</div>
-
-				</div>
-				<div class="col-md-3 col-md-6 navbar-right">
 					<div class="box_produt_hot">
 						<div class="title_box">
 							<h2><b>SẢN PHẨM GIẢM GIÁ</b></h2>
@@ -748,6 +751,7 @@
 							</div>
 						</ul>
 					</div>
+
 				</div>
 			</div>
     </div>
