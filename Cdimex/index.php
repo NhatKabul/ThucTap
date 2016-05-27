@@ -150,8 +150,8 @@
 				</div>
 				<div id="cssmenu" class="row navbar-left">
 					<ul>
-					   <li class="active"><p>Danh Mục</p></li>
-					   <li class="active"><a href='index.html'><span>Home</span></a></li>
+					   <li><p>Danh Mục</p></li>
+					   <li><a href='index.html'><span>Home</span></a></li>
 					   <li class="has-sub"><a href='#'><span>Products</span></a>
 					      <ul>
 					         <li class="has-sub"><a href='#'><span>Product 1</span></a>
@@ -537,9 +537,6 @@
 							</div>
 						</ul>
 					</div>
-
-				</div>
-				<div class="col-md-3 col-md-6 navbar-right">
 					<div class="box_produt_hot">
 						<div class="title_box">
 							<h2><b>SẢN PHẨM GIẢM GIÁ</b></h2>
@@ -701,6 +698,7 @@
 							</div>
 						</ul>
 					</div>
+
 				</div>
 			</div>
     </div>
