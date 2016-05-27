@@ -151,7 +151,7 @@
 				<div id="cssmenu" class="row navbar-left">
 					<ul>
 					   <li class="active"><p>Danh Mục</p></li>
-					   <li class="active"><a href='index.html'><span>Trang Chủ</span></a></li>
+					   <li class="active"><a href='index.php'><span>Trang Chủ</span></a></li>
 					   <li class="has-sub"><a href='#'><span>Sách Học Tiếng Anh </span></a>
 					      <ul>
 					         <li class="active"><a href='#'><span>Primary</span></a>
@@ -594,14 +594,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-apple-macbook-air-md711zp-b"><img alt="Laptop Macbook Air" src="image/sach/download.jpg" width="60" height="60"> </a>
+										<a href="/Get Ready For Business 2: Student's Book"><img alt="Get Ready For Business 2: Student's Book" src="image/giamgia/1.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-apple-macbook-air-md711zp-b">Laptop Macbook Air</a></h3>
+										<h3><a href="/Get Ready For Business 2: Student's Book">Get Ready For Business 2: Student's Book</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">20.900.000₫</span>
+										<span class="pr_new">199.000₫</span>
 									</div>
 									
 								</div>
@@ -610,14 +610,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-toshiba-satellite-c40-a138"><img alt="Laptop Toshiba Satellite" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/19409_12896_satellite-c40-a102e-1.jpg?v=1446716755747"> </a>
+										<a href="/English Explorer 1: Student Book"><img alt="English Explorer 1: Student Book" src="image/giamgia/2.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-toshiba-satellite-c40-a138">Laptop Toshiba Satellite</a></h3>
+										<h3><a href="English Explorer 1: Student Book">English Explorer 1: Student Book</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">9.000.000₫</span>
+										<span class="pr_new">150.000₫</span>
 									</div>
 									
 								</div>
@@ -626,14 +626,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-hp-probook-440-g2-k9r17pa"><img alt="Laptop HP Probook" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/hp_probook_440_01.jpg?v=1446716755943"> </a>
+										<a href="/Concise Oxford English Dictionary"><img alt="Concise Oxford English Dictionary" src="image/giamgia/3.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-hp-probook-440-g2-k9r17pa">Laptop HP Probook</a></h3>
+										<h3><a href="Concise Oxford English Dictionary">Concise Oxford English Dictionary</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">14.790.000₫</span>
+										<span class="pr_new">854.000₫</span>
 									</div>
 									
 								</div>
@@ -642,14 +642,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-dell-vostro-14-5000-series"><img alt="Laptop Dell Vostro" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/dell_vostro_14_5480_01.jpg?v=1446716755953"> </a>
+										<a href="Active Listening 1: Student Book with Cd"><img alt="Active Listening 1: Student Book with Cd" src="image/giamgia/4.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-dell-vostro-14-5000-series">Laptop Dell Vostro</a></h3>
+										<h3><a href="Active Listening 1: Student Book with Cd">Active Listening 1: Student Book with Cd</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">11.510.000₫</span>
+										<span class="pr_new">254.000₫</span>
 									</div>
 									
 								</div>
@@ -658,14 +658,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-asus-transformer-book-flip-tp550la-cj040h"><img alt="Laptop Asus Transformer" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/tp550ld-cj084h-01_rabz-50_ieap-cm_dv21-0f.jpg?v=1446716755810"> </a>
+										<a href="/laptop-asus-transformer-book-flip-tp550la-cj040h"><img alt="Laptop Asus Transformer" src="image/giamgia/5.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-asus-transformer-book-flip-tp550la-cj040h">Laptop Asus Transformer</a></h3>
+										<h3><a href="/laptop-asus-transformer-book-flip-tp550la-cj040h">English First Hands 1: Student Book with Cds/a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">10.590.000₫</span>
+										<span class="pr_new">194.000₫</span>
 									</div>
 									
 								</div>
@@ -674,14 +674,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/bo-chia-cong-usb-ibuffalo-4-cong"><img alt="Bộ chia cổng USB" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/hub-usb-ibuffalo-bsh4u06bk.jpg?v=1446716757290"> </a>
+										<a href="/bo-chia-cong-usb-ibuffalo-4-cong"><img alt="Bộ chia cổng USB" src="image/giamgia/6.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/bo-chia-cong-usb-ibuffalo-4-cong">Bộ chia cổng USB</a></h3>
+										<h3><a href="/bo-chia-cong-usb-ibuffalo-4-cong">English First Hands 2: Student Book with Cds</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">260.000₫</span>
+										<span class="pr_new">194.000₫</span>
 									</div>
 									
 								</div>
@@ -690,17 +690,17 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/o-cung-di-dong-wd-my-passport-ultra-1tb"><img alt="Ổ cứng di động WD" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/wd-my-passport-ultra-black-01.jpg?v=1446716755797"> </a>
+										<a href="/o-cung-di-dong-wd-my-passport-ultra-1tb"><img alt="Ổ cứng di động WD" src="image/giamgia/7.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/o-cung-di-dong-wd-my-passport-ultra-1tb">Ổ cứng di động WD</a></h3>
+										<h3><a href="/o-cung-di-dong-wd-my-passport-ultra-1tb">English Explorer 3: Student Book</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_old">1.890.000₫</span>
+										<span class="pr_old">180.000₫</span>
 									</div>
 									<div class="box_pr_price">
-										<span class="pr_new">1.850.000₫</span>
+										<span class="pr_new">162.000₫</span>
 									</div>
 									
 								</div>
@@ -709,17 +709,13 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/chuot-hong-ngoai-elecom"><img alt="Chuột hồng ngoại" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/elecom-m-ir06drbk-01.jpg?v=1446716756750"> </a>
+										<a href="/chuot-hong-ngoai-elecom"><img alt="Chuột hồng ngoại" src="image/giamgia/8.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/chuot-hong-ngoai-elecom">Chuột hồng ngoại</a></h3>
-									</div>
-									
-									<div class="box_pr_price">
-										<span class="pr_old">239.000₫</span>
+										<h3><a href="/chuot-hong-ngoai-elecom">Cheese-Rolling Races (AmE)</a></h3>
 									</div>
 									<div class="box_pr_price">
-										<span class="pr_new">209.000₫</span>
+										<span class="pr_new">Call</span>
 									</div>
 									
 								</div>
@@ -728,14 +724,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/ban-phim-khong-day-rapoo-e2700"><img alt="Bàn phím không dây" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/rapoo-e2700-b-01.jpg?v=1446716755767"> </a>
+										<a href="/ban-phim-khong-day-rapoo-e2700"><img alt="Bàn phím không dây" src="image/giamgia/10.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/ban-phim-khong-day-rapoo-e2700">Bàn phím không dây</a></h3>
+										<h3><a href="/ban-phim-khong-day-rapoo-e2700">An Introduction to Community Development</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">780.000₫</span>
+										<span class="pr_new">406.221₫</span>
 									</div>
 									
 								</div>
