@@ -754,14 +754,12 @@ img {
     max-width: 100%;
 }
 .title_box h2 {
-    background: #e24d85 none repeat scroll 0 0;
-}
-.title_box h2 {
-    background: #ebebeb none repeat scroll 0 0;
+    background: #01baff none repeat scroll 0 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     font-family: "Roboto",sans-serif;
     font-size: 17px;
+    color: #fefefe;
     margin-bottom: 0;
     margin-top: 0;
     padding: 14px 15px 10px;
@@ -774,10 +772,11 @@ img {
     -moz-border-top-colors: none;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    border-color: -moz-use-text-color #ebebeb #ebebeb;
+    border-color: -moz-use-text-color #908f8f #908f8f;
     border-image: none;
     border-style: none solid solid;
     border-width: medium 1px 1px;
+    border-color: #908f8f;
     margin-bottom: 0;
 }
 .box_produt_hot ul li {
@@ -799,11 +798,11 @@ img {
     text-decoration: none;
 }
 .box_pr_title h3 a:hover {
-    color: #68c6fd;
+    color: #337ab7;
     font-family: "Roboto",sans-serif;
     font-size: 14px;
     line-height: 18px;
-}
+}title_box
 .news_cont {
     color: #999;
     font-size: 14px;

@@ -14,6 +14,12 @@
 <script src="js/jquery-2.2.2.min.js" type="text/javascript"></script>
 <script src="css/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript"> jQuery.noConflict(); </script>
+<script type="text/javascript" src="./Scrolling Logo_Thumbnail Slider Demo - Jssor Slider, Slideshow with Javascript Source Code_files/jquery-1.9.1.min.js"></script>
+    <!-- use jssor.slider.mini.js (39KB) or jssor.sliderc.mini.js (31KB, with caption, no slideshow) or jssor.sliders.mini.js (26KB, no caption, no slideshow) instead for release -->
+    <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.core.js + jssor.utils.js + jssor.slider.js) -->
+    <script type="text/javascript" src="./Scrolling Logo_Thumbnail Slider Demo - Jssor Slider, Slideshow with Javascript Source Code_files/jssor.core.js"></script>
+    <script type="text/javascript" src="./Scrolling Logo_Thumbnail Slider Demo - Jssor Slider, Slideshow with Javascript Source Code_files/jssor.utils.js"></script>
+    <script type="text/javascript" src="./Scrolling Logo_Thumbnail Slider Demo - Jssor Slider, Slideshow with Javascript Source Code_files/jssor.slider.js"></script>
 <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
   <style type="text/css">
@@ -57,6 +63,7 @@
 		  </div>
 		</div><!-- banner -->
 		<div class="row">
+			<!-- start header -->
 			<div class="container">	
 				<div class="navbar-right">
 						<div class="row">
@@ -238,7 +245,9 @@
 					</ul>
 				</div>
 			</div>
-				<script type="text/javascript">
+			<!-- end header -->
+			<!-- start content -->
+			<script type="text/javascript">
 					jQuery(document).ready(function($) {
 						$(".center").slick({
 							dots: true,
@@ -248,7 +257,8 @@
 							slidesToScroll: 3
 							});
 						});
-				</script>
+			</script>
+			<div>
 				<div class="col-md-9 navbar-left">
 				  <div id="phanvung">
 					<p><b>Thời Trang</b></p>
@@ -594,14 +604,15 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-apple-macbook-air-md711zp-b"><img alt="Laptop Macbook Air" src="image/sach/download.jpg" width="60" height="60"> </a>
+										<a href="/Boost ! Grammar 4:Student's Book With Cd + Practice Book"><img alt="Boost ! Grammar 4:Student's Book With Cd + Practice Book" src="image/BanChay/product_s2123.jpg" > </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-apple-macbook-air-md711zp-b">Laptop Macbook Air</a></h3>
+										<h3><a href="/Boost ! Grammar 4:Student's Book With Cd + Practice Book">Boost ! Grammar 4:Student's Book With Cd + Practice Book</a></h3>
+										
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">20.900.000₫</span>
+										<span class="pr_new">100.000₫</span>
 									</div>
 									
 								</div>
@@ -610,14 +621,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-toshiba-satellite-c40-a138"><img alt="Laptop Toshiba Satellite" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/19409_12896_satellite-c40-a102e-1.jpg?v=1446716755747"> </a>
+										<a href="/Inspiration 4: Student Book"><img alt="Inspiration 4: Student Book" src="image/BanChay/2.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-toshiba-satellite-c40-a138">Laptop Toshiba Satellite</a></h3>
+										<h3><a href="/Inspiration 4: Student Book">Inspiration 4: Student Book</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">9.000.000₫</span>
+										<span class="pr_new">90.000₫</span>
 									</div>
 									
 								</div>
@@ -626,14 +637,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-hp-probook-440-g2-k9r17pa"><img alt="Laptop HP Probook" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/hp_probook_440_01.jpg?v=1446716755943"> </a>
+										<a href="/New American Inside Out Upper-Int"><img alt="New American Inside Out Upper-Int" src="image/BanChay/3.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-hp-probook-440-g2-k9r17pa">Laptop HP Probook</a></h3>
+										<h3><a href="/New American Inside Out Upper-Int">New American Inside Out Upper-Int: Workbook+CD-ROM Pack</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">14.790.000₫</span>
+										<span class="pr_new">90.000₫</span>
 									</div>
 									
 								</div>
@@ -642,10 +653,10 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-dell-vostro-14-5000-series"><img alt="Laptop Dell Vostro" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/dell_vostro_14_5480_01.jpg?v=1446716755953"> </a>
+										<a href="/New American Inside Out Beginner"><img alt="New American Inside Out Beginner" src="image/BanChay/4.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-dell-vostro-14-5000-series">Laptop Dell Vostro</a></h3>
+										<h3><a href="New American Inside Out Beginner">New American Inside Out Beginner: Student Book + CD-ROM Pack</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
@@ -658,14 +669,14 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/laptop-asus-transformer-book-flip-tp550la-cj040h"><img alt="Laptop Asus Transformer" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/tp550ld-cj084h-01_rabz-50_ieap-cm_dv21-0f.jpg?v=1446716755810"> </a>
+										<a href="/Renergy 2010"><img alt="Renergy 2010" src="image/BanChay/5.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/laptop-asus-transformer-book-flip-tp550la-cj040h">Laptop Asus Transformer</a></h3>
+										<h3><a href="/Renergy 2010">Renergy 2010</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_new">10.590.000₫</span>
+										<span class="pr_new">59.000₫</span>
 									</div>
 									
 								</div>
@@ -674,10 +685,10 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/bo-chia-cong-usb-ibuffalo-4-cong"><img alt="Bộ chia cổng USB" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/hub-usb-ibuffalo-bsh4u06bk.jpg?v=1446716757290"> </a>
+										<a href="/Field and Laboratory Exercises in Animal Behavior"><img alt="Field and Laboratory Exercises in Animal Behavior" src="image/BanChay/6.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/bo-chia-cong-usb-ibuffalo-4-cong">Bộ chia cổng USB</a></h3>
+										<h3><a href="/Field and Laboratory Exercises in Animal Behavior">Field and Laboratory Exercises in Animal Behavior</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
@@ -690,17 +701,17 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/o-cung-di-dong-wd-my-passport-ultra-1tb"><img alt="Ổ cứng di động WD" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/wd-my-passport-ultra-black-01.jpg?v=1446716755797"> </a>
+										<a href="/Morden Foreign Languages 5-11"><img alt="Morden Foreign Languages 5-11" src="image/BanChay/7.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/o-cung-di-dong-wd-my-passport-ultra-1tb">Ổ cứng di động WD</a></h3>
+										<h3><a href="/Morden Foreign Languages 5-11">Morden Foreign Languages 5-11</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
-										<span class="pr_old">1.890.000₫</span>
+										<span class="pr_old">190.000₫</span>
 									</div>
 									<div class="box_pr_price">
-										<span class="pr_new">1.850.000₫</span>
+										<span class="pr_new">150.000₫</span>
 									</div>
 									
 								</div>
@@ -709,10 +720,10 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/chuot-hong-ngoai-elecom"><img alt="Chuột hồng ngoại" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/elecom-m-ir06drbk-01.jpg?v=1446716756750"> </a>
+										<a href="/The Macroeconomic Theory of Exchange Rate Crises"><img alt="The Macroeconomic Theory of Exchange Rate Crises" src="image/BanChay/9.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/chuot-hong-ngoai-elecom">Chuột hồng ngoại</a></h3>
+										<h3><a href="/The Macroeconomic Theory of Exchange Rate Crises">The Macroeconomic Theory of Exchange Rate Crises</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
@@ -728,10 +739,10 @@
 							<li>
 								<div class="box_pr_small">
 									<div class="box_pr_img">
-										<a href="/ban-phim-khong-day-rapoo-e2700"><img alt="Bàn phím không dây" src="//bizweb.dktcdn.net/thumb/large/100/029/262/products/rapoo-e2700-b-01.jpg?v=1446716755767"> </a>
+										<a href="/The Oxford Handbook of Bayesian Econometrics"><img alt="The Oxford Handbook of Bayesian Econometrics" src="image/BanChay/10.jpg"> </a>
 									</div>
 									<div class="box_pr_title">
-										<h3><a href="/ban-phim-khong-day-rapoo-e2700">Bàn phím không dây</a></h3>
+										<h3><a href="/The Oxford Handbook of Bayesian Econometrics">The Oxford Handbook of Bayesian Econometrics</a></h3>
 									</div>
 									
 									<div class="box_pr_price">
@@ -746,9 +757,14 @@
 							</div>
 						</ul>
 					</div>
-
 				</div>
 			</div>
+		</div>
+		<!-- end content -->
+		<div class="row navbar navbar-default">
+			<p align="center" class="font-footer"><font>Copyright &copy; Cdimex</font></p>
+		</div>
     </div>
+
 </body>
 </html>
