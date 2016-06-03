@@ -8,24 +8,19 @@
 <link rel="stylesheet" href="css/css.css" type="text/css">
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="stylesheet" href="css/custom.css" type="text/css">
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
 <script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js" ></script>
 <script src="js/jquery-2.2.2.min.js" type="text/javascript"></script>
 <script src="css/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript"> jQuery.noConflict(); </script>
-<script type="text/javascript" src="./Scrolling Logo_Thumbnail Slider Demo - Jssor Slider, Slideshow with Javascript Source Code_files/jquery-1.9.1.min.js"></script>
-    <!-- use jssor.slider.mini.js (39KB) or jssor.sliderc.mini.js (31KB, with caption, no slideshow) or jssor.sliders.mini.js (26KB, no caption, no slideshow) instead for release -->
-    <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.core.js + jssor.utils.js + jssor.slider.js) -->
-    <script type="text/javascript" src="./Scrolling Logo_Thumbnail Slider Demo - Jssor Slider, Slideshow with Javascript Source Code_files/jssor.core.js"></script>
-    <script type="text/javascript" src="./Scrolling Logo_Thumbnail Slider Demo - Jssor Slider, Slideshow with Javascript Source Code_files/jssor.utils.js"></script>
-    <script type="text/javascript" src="./Scrolling Logo_Thumbnail Slider Demo - Jssor Slider, Slideshow with Javascript Source Code_files/jssor.slider.js"></script>
 <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
   <style type="text/css">
     html, body {
       margin: 0;
-      padding: 0;
+      padding: 30px 0px;
     }
 
     * {
@@ -33,13 +28,14 @@
     }
 
     .slider {
-        width: 90%;
+        width: 100%;
         margin: 50px;
-        top: -20px;
+        top: 0px;
+        left: -50px;
     }
 
     .slick-slide {
-      margin: 10px 20px;
+      margin: 0px 20px;
     }
 
     .slick-slide img {
@@ -55,9 +51,9 @@
 <body>
     <div class="container">
     	<div class="nen row navbar"><!-- banner -->
-		  <div class="col-md-2 row"><img src="image/logo/logo.png"></div>
-		  <div class="col-md-10">
-		  	<h3 align="center" class="font-chu" size="5">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
+		  <div class="col-xs-2 row"><img src="image/logo/logo.png" width="100%" height="100%"></div>
+		  <div class="col-xs-10">
+		  	<h3 align="center" class="font-chu">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
 					VÀ PHÁT TRIỂN VĂN HÓA
 			</h3>
 		  </div>
@@ -66,19 +62,35 @@
 			<!-- start header -->
 			<div class="container">	
 				<div class="navbar-right">
-						<div class="row">
-							<div class="col-md-8">
-							  	<div class="form-group">
-							  		<form class="form-inline">
-									  	<input type="text" class="form-control" placeholder="Nhập từ tìm kiếm..." size="65"><button type="button" class="btn btn-primary">Tìm</button>
-									</form>
-								</div>
+						<div class="navbar navbar-default navbar-fixed-top">
+							<div class="container">
+								<div class="navbar-header">
+									<div class="col-xs-3">
+						                <ul class="nav navbar-nav">
+						                    <li><a href="show_cart.php"><img src="image/icon/images.png" height="20"><b> Giỏ Hàng <span class="badge">0
+						                    </span></b></a></li>
+						                </ul>
+					                </div>
+					                <div class="col-xs-6">
+						                <ul class="nav navbar-nav">
+						                    <li>
+						                    	<form id="form1" name="form1" method="post" class="navbar-form navbar-left" enctype="multipart/form-data">
+												  <div class="input-group">
+												    <tr>
+												      <input type="text" class="form-control" placeholder="Search for..." size="100%">
+												      <span class="input-group-btn">
+												        <button class="btn btn-primary" type="button">Tìm</button>
+												      </span>
+												    </tr>
+												  </div>
+												</form>
+						                    </li>
+						                </ul>
+					                </div>
+					                <div class="col-xs-3">
+					                </div>
+					            </div>
 							</div>
-							<div class="col-md-2">
-							  	<button type="button" class="btn btn-link"> <img src="image/icon/dn.jpg" width="30" height="28"><font size="2">Đăng Nhập</font></button>
-							</div>
-							<div class="col-md-2"><button type="button" class="btn btn-link"> <img src="image/icon/images.png" width="30" height="28"><font size="2">Giỏ Hàng<a href=""></a></font></button></div>
-							
 						</div>
 						<script type="text/javascript">
 							$(document).ready(function(){
@@ -156,8 +168,8 @@
 						</div>
 				</div>
 				<div id="cssmenu" class="row navbar-left">
+					<p class="danhmuc">Danh Mục</p>
 					<ul>
-					   <li class="active"><p>Danh Mục</p></li>
 					   <li class="active"><a href='index.php'><span>Trang Chủ</span></a></li>
 					   <li class="has-sub"><a href='#'><span>Sách Học Tiếng Anh </span></a>
 					      <ul>
@@ -227,19 +239,117 @@
 					   </li>
 					   <li class="has-sub"><a href='#'><span>Exams</span></a>
 					      <ul>
-					         <li class="has-sub"><a href='#'><span>Product 1</span></a>
-					            <ul>
-					               <li><a href='#'><span>Sub Item</span></a></li>
-					               <li><a href='#'><span>Sub Item</span></a></li>
-					            </ul>
+					         <li class="has-sub"><a href='#'><span>Primary</span></a>
+					         	<ul>
+							         <li class="has-sub"><a href='#'><span>Primary</span></a>
+							         	<ul>
+									         <li class="active"><a href='#'><span>Primary</span></a>
+									         </li>
+									         <li class="active"><a href='#'><span>Secondary</span></a>
+									         </li>
+											 <li class="active"><a href='#'><span>Adults</span></a>
+									         </li>
+									         <li class="active"><a href='#'><span>Skills</span></a>
+									         </li>
+											 <li class="active"><a href='#'><span>Exams</span></a>
+									         </li>
+									         <li class="active"><a href='#'><span>Professional English</span></a>
+									         </li>
+									     </ul>
+							         </li>
+							         <li class="active"><a href='#'><span>Secondary</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Adults</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Skills</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Exams</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Professional English</span></a>
+							         </li>
+							     </ul>
 					         </li>
-					         <li class="has-sub"><a href='#'><span>Product 2</span></a>
-					            <ul>
-					               <li><a href='#'><span>Sub Item</span></a></li>
-					               <li><a href='#'><span>Sub Item</span></a></li>
-					            </ul>
+					         <li class="has-sub"><a href='#'><span>Secondary</span></a>
+					         	<ul>
+							         <li class="active"><a href='#'><span>Primary</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Secondary</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Adults</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Skills</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Exams</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Professional English</span></a>
+							         </li>
+							     </ul>
 					         </li>
-					      </ul>
+							 <li class="has-sub"><a href='#'><span>Adults</span></a>
+							 	<ul>
+							         <li class="active"><a href='#'><span>Primary</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Secondary</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Adults</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Skills</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Exams</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Professional English</span></a>
+							         </li>
+							     </ul>
+					         </li>
+					         <li class="has-sub"><a href='#'><span>Skills</span></a>
+					         	<ul>
+							         <li class="active"><a href='#'><span>Primary</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Secondary</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Adults</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Skills</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Exams</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Professional English</span></a>
+							         </li>
+							     </ul>
+					         </li>
+							 <li class="has-sub"><a href='#'><span>Exams</span></a>
+							 	<ul>
+							         <li class="active"><a href='#'><span>Primary</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Secondary</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Adults</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Skills</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Exams</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Professional English</span></a>
+							         </li>
+							     </ul>
+					         </li>
+					         <li class="has-sub"><a href='#'><span>Professional English</span></a>
+					         	<ul>
+							         <li class="active"><a href='#'><span>Primary</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Secondary</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Adults</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Skills</span></a>
+							         </li>
+									 <li class="active"><a href='#'><span>Exams</span></a>
+							         </li>
+							         <li class="active"><a href='#'><span>Professional English</span></a>
+							         </li>
+							     </ul>
+					         </li>
+					     </ul>
 					   </li>
 					   <li><a href='#'><span>Professional English</span></a></li>
 					</ul>
@@ -252,14 +362,27 @@
 						$(".center").slick({
 							dots: true,
 							infinite: true,
-							centerMode: true,
-							slidesToShow: 3,
-							slidesToScroll: 3
+							centerMode: false,
+							slidesToShow: 4,
 							});
 						});
 			</script>
 			<div>
-				<div class="col-md-9 navbar-left">
+				<script type="text/javascript">
+					$(function(){
+					$(window).scroll(function () {
+					if ($(this).scrollTop() > 100) $('#goTop').fadeIn();
+					else $('#goTop').fadeOut();
+					});
+					$('#goTop').click(function () {
+					$('body,html').animate({scrollTop: 0}, 'slow');
+					});
+				});
+				</script>
+				<div id="goTop" class="toTop">
+					<img src="image/icon/back-to-top.png"/>
+				</div>
+				<div class="col-xs-9 navbar-left">
 				  <div id="phanvung">
 					<p><b>Thời Trang</b></p>
 				  </div>
@@ -432,7 +555,7 @@
 				    </div>
 				  </section>
 				</div>
-				<div class="col-md-3 col-md-6 navbar-right">
+				<div class="col-xs-3 col-xs-6 navbar-right">
 					<div class="box_produt_hot">
 						<div class="title_box">
 							<h2><b>SẢN PHẨM BÁN CHẠY</b></h2>
@@ -756,9 +879,11 @@
 			</div>
 		</div>
 		<!-- end content -->
+		<!-- start footer -->
 		<div class="row navbar navbar-default">
 			<p align="center" class="font-footer"><font>Copyright &copy; Cdimex</font></p>
 		</div>
+		<!-- end footer -->
     </div>
 
 </body>

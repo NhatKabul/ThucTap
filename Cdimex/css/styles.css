@@ -16,7 +16,6 @@
 	/* The list elements which contain the links */
 	#cssmenu > ul li {
 		display: block;
-		position: relative;
 		margin: 0;
 		padding: 0;
 		width: 200px;	
@@ -131,7 +130,7 @@
 			top: 0px;
 			opacity: 1;
 		}
-		#cssmenu > ul li p{
+.danhmuc{
 			display: block;
 			position: relative;
 			margin: 0;
@@ -147,7 +146,7 @@
 			text-transform: none;
 			font-size: 17px;
 			font-weight: bold;
-		}
+}
 #phanvung > p{
 			display: block;
 			position: relative;
@@ -319,4 +318,14 @@
 .carousel-control.left, .carousel-control.right {
 	background-image:none;
 }
+.toTop {
+	bottom: 30px;
+	cursor: pointer;
+	display: none;
+	height: 35px;
+	position: fixed;
+	right: 20px;
+	width: 50px;
+	z-index: 1000;
+	}
 
