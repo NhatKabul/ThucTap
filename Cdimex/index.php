@@ -5,18 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="icon" href="image/logo.ico">
 <title>Cdimex</title>
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+<link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/css.css" type="text/css">
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">
 <link rel="stylesheet" href="css/custom.css" type="text/css">
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
-<script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js" ></script>
-<script src="js/jquery-2.2.2.min.js" type="text/javascript"></script>
-<script src="css/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript"> jQuery.noConflict(); </script>
 <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
+<script src="js/jquery-2.2.2.min.js" type="text/javascript"></script>
+<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="css/slick/slick.js" type="text/javascript" charset="utf-8"></script>
   <style type="text/css">
     html, body {
       margin: 0;
@@ -50,7 +50,7 @@
 </head>
 <body>
     <div class="container">
-    	<div class="nen row navbar"><!-- banner -->
+    	<div class="nen row navbar container"><!-- banner -->
 		  <div class="col-xs-2 row"><img src="image/logo/logo.png" width="100%" height="100%"></div>
 		  <div class="col-xs-10">
 		  	<h3 align="center" class="font-chu">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
@@ -61,299 +61,71 @@
 		<div class="row">
 			<!-- start header -->
 			<div class="container">	
-				<div class="navbar-right">
-						<div class="navbar navbar-default navbar-fixed-top">
-							<div class="container">
-								<div class="navbar-header">
-									<div class="col-xs-3">
-						                <ul class="nav navbar-nav">
-						                    <li><a href="show_cart.php"><img src="image/icon/images.png" height="20"><b> Giỏ Hàng <span class="badge">0
-						                    </span></b></a></li>
-						                </ul>
-					                </div>
-					                <div class="col-xs-6">
-						                <ul class="nav navbar-nav">
-						                    <li>
-						                    	<form id="form1" name="form1" method="post" class="navbar-form navbar-left" enctype="multipart/form-data">
-												  <div class="input-group">
-												    <tr>
-												      <input type="text" class="form-control" placeholder="Search for..." size="100%">
-												      <span class="input-group-btn">
+				<div class="navbar navbar-default navbar-fixed-top">
+					<div class="container">
+						<div class="navbar-header">
+							<div class="col-xs-3">
+						        <ul class="nav navbar-nav">
+						            <li><a href="show_cart.php"><img src="image/icon/images.png" height="20"><b> Giỏ Hàng <span class="badge">0
+						            </span></b></a></li>
+						        </ul>
+					        </div>
+					        <div class="col-xs-6">
+						        <ul class="nav navbar-nav">
+						            <li>
+						                <form id="form1" name="form1" method="post" class="navbar-form navbar-left" enctype="multipart/form-data">
+											<div class="input-group">
+												<tr>
+												    <input type="text" class="form-control" placeholder="Search for..." size="100%">
+												    <span class="input-group-btn">
 												        <button class="btn btn-primary" type="button">Tìm</button>
-												      </span>
-												    </tr>
-												  </div>
-												</form>
-						                    </li>
-						                </ul>
-					                </div>
-					                <div class="col-xs-3">
-					                </div>
-					            </div>
-							</div>
+												    </span>
+												</tr>
+											</div>
+										</form>
+						            </li>
+						        </ul>
+					        </div>
+					        <div class="col-xs-3">
+					        </div>
+					    </div>
+					</div>
+				</div> 
+				<div class="container">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+						    <div class="item active">
+						      <img src="image/slideshow/hinh1.jpg" alt="Chania">
+						    </div>
+
+						    <div class="item">
+						      <img src="image/slideshow/hinh2.jpg" alt="Chania">
+						    </div>
+
+						    <div class="item">
+						      <img src="image/slideshow/hinh3.jpg" alt="Flower">
+						    </div>
+						  </div>
+
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
 						</div>
-						<script type="text/javascript">
-							$(document).ready(function(){
-								$("#featured").tabs({fx:[{opacity: "toggle", duration: 'slow'}, {opacity: "toggle", duration: 'normal'}],
-									show: function(event, ui){
-										$('#featured .ui-tabs-panel .info').hide();
-										var infoheight=$('.info', ui.panel).height();
-										$('.info', ui.panel).css('height', '0px').animate({ 'height': infoheight }, 500);
-									}
-								}).tabs("rotate", 5000, true);
-								$('#featured').hover(
-									function(){ $('#featured').tabs('rotate', 0, true); },
-									function(){ $('#featured').tabs('rotate', 5000, true); }
-								);
-								$('#featured .ui-tabs-panel a.hideshow').click(function(){
-									if($(this).text()=='Hide'){
-										$(this).parent('.info').animate({ 'height': '0px' }, 500);
-										$(this).text('Show');
-									}
-									else{
-										$(this).parent('.info').animate({ 'height': '70px' }, 500);
-										$(this).text('Hide');
-									}
-									return false;
-								});
-							});
-						</script>
-						<div id="featured">
-						  <ul class="ui-tabs-nav">
-					        <li class="ui-tabs-nav-item ui-tabs-selected" id="nav-fragment-1"><a href="#fragment-1"><img src="image/slideshow/image1-small.jpg" alt="" /><span>15+ Excellent High Speed Photographs</span></a></li>
-					        <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2"><img src="image/slideshow/image2-small.jpg" alt="" /><span>20 Beautiful Long Exposure Photographs</span></a></li>
-					        <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"><img src="image/slideshow/image3-small.jpg" alt="" /><span>35 Amazing Logo Designs</span></a></li>
-					        <li class="ui-tabs-nav-item" id="nav-fragment-4"><a href="#fragment-4"><img src="image/slideshow/image4-small.jpg" alt="" /><span>Create a Vintage Photograph in Photoshop</span></a></li>
-					      </ul>
-
-					    	<!-- First Content -->
-						    <div id="fragment-1" class="ui-tabs-panel" style="">
-								<img src="image/slideshow/banner.jpg" alt="" width="700" height="255" />
-								 <!-- <div class="info" >
-									<a class="hideshow" href="#" >X</a>
-									<h2><a href="#" >15+ Excellent High Speed Photographs</a></h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt condimentum lacus. Pellentesque ut diam....<a href="#" >read more</a></p>
-								 </div> -->
-						    </div>
-
-						    <!-- Second Content -->
-						    <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">
-								<img src="image/slideshow/banner1.jpg" alt="" width="700" height="255" />
-								 <!-- <div class="info" >
-									<a class="hideshow" href="#" >X</a>
-									<h2><a href="#" >20 Beautiful Long Exposure Photographs</a></h2>
-									<p>Vestibulum leo quam, accumsan nec porttitor a, euismod ac tortor. Sed ipsum lorem, sagittis non egestas id, suscipit....<a href="#" >read more</a></p>
-								 </div> -->
-						    </div>
-
-						    <!-- Third Content -->
-						    <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
-								<img src="image/slideshow/dich-vu-dang-tin.jpg" alt="" width="700" height="255" />
-								 <!-- <div class="info" >
-									<a class="hideshow" href="#" >X</a>
-									<h2><a href="#" >35 Amazing Logo Designs</a></h2>
-									<p>liquam erat volutpat. Proin id volutpat nisi. Nulla facilisi. Curabitur facilisis sollicitudin ornare....<a href="#" >read more</a></p>
-						         </div> -->
-						    </div>
-
-						    <!-- Fourth Content -->
-						    <div id="fragment-4" class="ui-tabs-panel ui-tabs-hide" style="">
-								<img src="image/slideshow/LOFWI_banner-sach.png" alt="" width="700" height="255" />
-								 <!-- <div class="info" >
-									<a class="hideshow" href="#" >X</a>
-									<h2><a href="#" >Create a Vintage Photograph in Photoshop</a></h2>
-									<p>Quisque sed orci ut lacus viverra interdum ornare sed est. Donec porta, erat eu pretium luctus, leo augue sodales....<a href="#" >read more</a></p>
-						         </div> -->
-						    </div>
-						</div>
-				</div>
-				<div id="cssmenu" class="row navbar-left">
-					<p class="danhmuc">Danh Mục</p>
-					<ul>
-					   <li class="active"><a href='index.php'><span>Trang Chủ</span></a></li>
-					   <li class="has-sub"><a href='#'><span>Sách Học Tiếng Anh </span></a>
-					      <ul>
-					         <li class="active"><a href='#'><span>Primary</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Secondary</span></a>
-					         </li>
-							 <li class="active"><a href='#'><span>Adults</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Skills</span></a>
-					         </li>
-							 <li class="active"><a href='#'><span>Exams</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Professional English</span></a>
-					         </li>
-					      </ul>
-					   </li>
-					   <li class="has-sub"><a href='#'><span>Sách Giáo Dục</span></a>
-						<ul>
-					         <li class="active"><a href='#'><span>Primary</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Secondary</span></a>
-					         </li>
-							 <li class="active"><a href='#'><span>Adults</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Skills</span></a>
-					         </li>
-							 <li class="active"><a href='#'><span>Exams</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Professional English</span></a>
-					         </li>
-					     </ul>
-					   </li>
-					   <li class="has-sub"><a href='#'><span>Sách Chuyên Khảo</span></a>
-							<ul>
-					         <li class="active"><a href='#'><span>Primary</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Secondary</span></a>
-					         </li>
-							 <li class="active"><a href='#'><span>Adults</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Skills</span></a>
-					         </li>
-							 <li class="active"><a href='#'><span>Exams</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Professional English</span></a>
-					         </li>
-					     </ul>
-					   </li>
-					   </li>
-					   <li class="has-sub"><a href='#'><span>Sách Giảm Giá</span></a>
-							<ul>
-					         <li class="active"><a href='#'><span>Primary</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Secondary</span></a>
-					         </li>
-							 <li class="active"><a href='#'><span>Adults</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Skills</span></a>
-					         </li>
-							 <li class="active"><a href='#'><span>Exams</span></a>
-					         </li>
-					         <li class="active"><a href='#'><span>Professional English</span></a>
-					         </li>
-					     </ul>
-					   </li>
-					   </li>
-					   <li class="has-sub"><a href='#'><span>Exams</span></a>
-					      <ul>
-					         <li class="has-sub"><a href='#'><span>Primary</span></a>
-					         	<ul>
-							         <li class="has-sub"><a href='#'><span>Primary</span></a>
-							         	<ul>
-									         <li class="active"><a href='#'><span>Primary</span></a>
-									         </li>
-									         <li class="active"><a href='#'><span>Secondary</span></a>
-									         </li>
-											 <li class="active"><a href='#'><span>Adults</span></a>
-									         </li>
-									         <li class="active"><a href='#'><span>Skills</span></a>
-									         </li>
-											 <li class="active"><a href='#'><span>Exams</span></a>
-									         </li>
-									         <li class="active"><a href='#'><span>Professional English</span></a>
-									         </li>
-									     </ul>
-							         </li>
-							         <li class="active"><a href='#'><span>Secondary</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Adults</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Skills</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Exams</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Professional English</span></a>
-							         </li>
-							     </ul>
-					         </li>
-					         <li class="has-sub"><a href='#'><span>Secondary</span></a>
-					         	<ul>
-							         <li class="active"><a href='#'><span>Primary</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Secondary</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Adults</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Skills</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Exams</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Professional English</span></a>
-							         </li>
-							     </ul>
-					         </li>
-							 <li class="has-sub"><a href='#'><span>Adults</span></a>
-							 	<ul>
-							         <li class="active"><a href='#'><span>Primary</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Secondary</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Adults</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Skills</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Exams</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Professional English</span></a>
-							         </li>
-							     </ul>
-					         </li>
-					         <li class="has-sub"><a href='#'><span>Skills</span></a>
-					         	<ul>
-							         <li class="active"><a href='#'><span>Primary</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Secondary</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Adults</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Skills</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Exams</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Professional English</span></a>
-							         </li>
-							     </ul>
-					         </li>
-							 <li class="has-sub"><a href='#'><span>Exams</span></a>
-							 	<ul>
-							         <li class="active"><a href='#'><span>Primary</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Secondary</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Adults</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Skills</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Exams</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Professional English</span></a>
-							         </li>
-							     </ul>
-					         </li>
-					         <li class="has-sub"><a href='#'><span>Professional English</span></a>
-					         	<ul>
-							         <li class="active"><a href='#'><span>Primary</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Secondary</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Adults</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Skills</span></a>
-							         </li>
-									 <li class="active"><a href='#'><span>Exams</span></a>
-							         </li>
-							         <li class="active"><a href='#'><span>Professional English</span></a>
-							         </li>
-							     </ul>
-					         </li>
-					     </ul>
-					   </li>
-					   <li><a href='#'><span>Professional English</span></a></li>
-					</ul>
-				</div>
+			  	</div>          
 			</div>
 			<!-- end header -->
 			<!-- start content -->
@@ -885,6 +657,6 @@
 		</div>
 		<!-- end footer -->
     </div>
-
+    
 </body>
 </html>
