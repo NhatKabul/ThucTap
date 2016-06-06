@@ -60,7 +60,6 @@
 		</div><!-- banner -->
 		<div class="row">
 			<!-- start header -->
-<<<<<<< HEAD
 			
 			<?php
 				include("Views/Header.php"); 
