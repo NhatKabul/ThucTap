@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="icon" href="image/logo.ico">
 <title>Cdimex</title>
 <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -11,6 +10,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="css/styles.css" type="text/css">
 <link rel="stylesheet" href="css/custom.css" type="text/css">
+<link rel="stylesheet" href="css/non-responsive.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
 <script src="js/jquery-2.2.2.min.js" type="text/javascript"></script>
@@ -61,43 +61,46 @@
 		<div class="row">
 			<!-- start header -->
 			<div class="container">	
-				<div class="navbar navbar-default navbar-fixed-top">
-					<div class="container">
-						<div class="navbar-header">
-							<div class="col-xs-3">
-						        <ul class="nav navbar-nav">
-						            <li><a href="show_cart.php"><img src="image/icon/images.png" height="20"><b> Giỏ Hàng <span class="badge">0
-						            </span></b></a></li>
-						        </ul>
+				<div class="row">
+					<nav class="navbar navbar-default navbar-fixed-top">
+					  <div class="container">
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav">
+					        <li><a href="show_cart.php"><img src="image/icon/images.png" height="20"><b> Giỏ Hàng <span class="badge">0
+						    </span></b></a></li>
+					      </ul>
+					      <form class="navbar-form navbar-left" role="search">
+					        <div class="input-group">
+					          <tr>
+					          	<input type="text" class="form-control" placeholder="Search" size="50%">
+					          	<span class="input-group-btn"><button type="submit" class="btn btn-primary">Tìm</button></span>
+					          </tr>
 					        </div>
-					        <div class="col-xs-6">
-						        <ul class="nav navbar-nav">
-						            <li>
-						                <form id="form1" name="form1" method="post" class="navbar-form navbar-left" enctype="multipart/form-data">
-											<div class="input-group">
-												<tr>
-												    <input type="text" class="form-control" placeholder="Search for..." size="100%">
-												    <span class="input-group-btn">
-												        <button class="btn btn-primary" type="button">Tìm</button>
-												    </span>
-												</tr>
-											</div>
-										</form>
-						            </li>
-						        </ul>
-					        </div>
-					        <div class="col-xs-3">
-					        </div>
-					    </div>
-					</div>
+					      </form>
+					      <ul class="nav navbar-nav navbar-right">
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Đăng Nhập<b><span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="#">Đăng Nhập Tài Khoản</a></li>
+					            <li><a href="#">Đăng Ký</a></li>
+					          </ul>
+					        </li>
+					      </ul>
+					    </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
 				</div> 
-				<div class="container">
+				<div class="row container-fuild">
+					<div class="navbar-right col-xs-10">
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indicators -->
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -125,8 +128,52 @@
 						    <span class="sr-only">Next</span>
 						  </a>
 						</div>
-			  	</div>          
+					</div>
+					<div id="cssmenu" class="navbar-left col-xs-2">
+								<p class="danhmuc">Danh Mục</p>
+								<ul>
+								   <li class="active"><a href='index.html'><span>Home</span></a></li>
+								   <li class="has-sub"><a href='#'><span>Products</span></a>
+								      <ul>
+								         <li class="has-sub"><a href='#'><span>Product 1</span></a>
+								            <ul>
+								               <li><a href='#'><span>Sub Item</span></a></li>
+								               <li><a href='#'><span>Sub Item</span></a></li>
+								            </ul>
+								         </li>
+								         <li class="has-sub"><a href='#'><span>Product 2</span></a>
+								            <ul>
+								               <li><a href='#'><span>Sub Item</span></a></li>
+								               <li><a href='#'><span>Sub Item</span></a></li>
+								            </ul>
+								         </li>
+								      </ul>
+								   </li>
+								   <li><a href='#'><span>About</span></a></li>
+								   <li><a href='#'><span>Contact</span></a></li>
+								   <li><a href='#'><span>About</span></a></li>
+								   <li class="has-sub"><a href='#'><span>Products</span></a>
+								      <ul>
+								         <li class="has-sub"><a href='#'><span>Product 1</span></a>
+								            <ul>
+								               <li><a href='#'><span>Sub Item</span></a></li>
+								               <li><a href='#'><span>Sub Item</span></a></li>
+								            </ul>
+								         </li>
+								         <li class="has-sub"><a href='#'><span>Product 2</span></a>
+								            <ul>
+								               <li><a href='#'><span>Sub Item</span></a></li>
+								               <li><a href='#'><span>Sub Item</span></a></li>
+								            </ul>
+								         </li>
+								      </ul>
+								   </li>
+								   <li><a href='#'><span>About</span></a></li>
+								</ul>
+					</div>
+				</div>
 			</div>
+			
 			<!-- end header -->
 			<!-- start content -->
 			<script type="text/javascript">
@@ -464,22 +511,6 @@
 									</div>
 									<div class="box_pr_price">
 										<span class="pr_new">209.000₫</span>
-									</div>
-									
-								</div>
-							</li>
-							
-							<li>
-								<div class="box_pr_small">
-									<div class="box_pr_img">
-										<a href="/The Oxford Handbook of Bayesian Econometrics"><img alt="The Oxford Handbook of Bayesian Econometrics" src="image/BanChay/10.jpg"> </a>
-									</div>
-									<div class="box_pr_title">
-										<h3><a href="/The Oxford Handbook of Bayesian Econometrics">The Oxford Handbook of Bayesian Econometrics</a></h3>
-									</div>
-									
-									<div class="box_pr_price">
-										<span class="pr_new">780.000₫</span>
 									</div>
 									
 								</div>
