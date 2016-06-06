@@ -62,8 +62,6 @@
 			<!-- start header -->
 <<<<<<< HEAD
 			
-=======
->>>>>>> origin/master
 			<?php
 				include("Views/Header.php"); 
 			?>
