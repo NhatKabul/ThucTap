@@ -81,10 +81,10 @@
 					      </form>
 					      <ul class="nav navbar-nav navbar-right">
 					        <li class="dropdown">
-					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Đăng Nhập<b><span class="caret"></span></a>
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font color="#0000FF"><b>Đăng Nhập<b><span class="caret"></span></font></span></a>
 					          <ul class="dropdown-menu">
-					            <li><a href="#">Đăng Nhập Tài Khoản</a></li>
-					            <li><a href="#">Đăng Ký</a></li>
+					            <li><a class="btn btn-link btn-sl" data-toggle="modal" data-target="#myModal"><image src="image/icon/dn.jpg" width="20" height="20">Đăng Nhập</a></li>
+					             <li><a class="btn btn-link btn-sl" data-toggle="modal" data-target="#myModal"><image src="image/icon/dk.png" width="20" height="20">   Đăng Ký</a></li>
 					          </ul>
 					        </li>
 					      </ul>
@@ -175,6 +175,23 @@
 			</div>
 			
 			<!-- end header -->
+			<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				      </div>
+				      <div class="modal-body">
+				        ...
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
 			<!-- start content -->
 			<script type="text/javascript">
 					jQuery(document).ready(function($) {
