@@ -21,8 +21,8 @@
 					        <li class="dropdown">
 					          <a class="dropdown-toggle"><b>Đăng Nhập<b><span class="caret"></span></a>
 					          <ul class="dropdown-menu">
-					            <li><a class="btn btn-link btn-sl" data-toggle="modal" data-target="#myModal"><image src="image/icon/dn.jpg" width="20" height="20">Đăng Nhập</a></li>
-					             <li><a class="btn btn-link btn-sl" data-toggle="modal" data-target="#myModal"><image src="image/icon/dk.png" width="20" height="20">   Đăng Ký</a></li>
+					            <li><a href="#">Đăng Nhập Tài Khoản</a></li>
+					            <li><a href="#">Đăng Ký</a></li>
 					          </ul>
 					        </li>
 					      </ul>

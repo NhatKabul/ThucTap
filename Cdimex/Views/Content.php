@@ -501,43 +501,5 @@
 						</ul>
 					</div>
 				</div>
-				<script type="text/javascript">
-					jQuery(document).ready(function($) {
-						$('.autoplay').slick({
-						  slidesToShow: 5,
-						  slidesToScroll: 1,
-						  autoplay: true,
-						  autoplaySpeed: 2000,
-						});
-					});
-				</script>
-				<div class="col-xs-12">
-				  <div id="phanvung">
-					<p><b>Đối Tác</b></p>
-				  </div>
-				  <section class="autoplay slider">
-				    <div>
-				      <img src="image/HinhSach/9780132056779.jpg" height="70px">
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132795470.jpg" height="70px">
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132336765.jpg" height="70px">
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132795470.jpg" height="70px">
-				    </div>
-				   <div>
-				      <img src="image/HinhSach/9780132881876.jpg" height="70px">
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780133437546.jpg" height="70px">
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780136038993.jpg" height="70px">
-				    </div>
-				  </section>
-				</div>
 			</div>
 		</div>
