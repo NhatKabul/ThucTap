@@ -6,11 +6,11 @@
 					    <!-- Collect the nav links, forms, and other content for toggling -->
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					      <ul class="nav navbar-nav">
-					        <li><a href="Giohang.php"><img src="image/icon/images.png" height="20"><b> <font color="#0000FF">Giỏ Hàng</font> <span class="badge">0
+					        <li><a href="Giohang.php"><img src="image/icon/images.png" height="20"><b> <font color="#3366FF">Giỏ Hàng</font> <span class="badge">0
 						    </span></b></a></li>
 					      </ul>
 					       <ul class="nav navbar-nav">
-					        <li><a href="show_cart.php"><img src="image/icon/hotline.jpg" height="20"><b><font color="#0000FF"> Hỗ Trợ Khách Hàng</font> </b></a></li>
+					        <li><a href="show_cart.php"><img src="image/icon/hotline.jpg" height="20"><b><font color="#3366FF"> Hỗ Trợ Khách Hàng</font> </b></a></li>
 					      </ul>
 					      <form class="navbar-form navbar-left" role="search">
 					        <div class="input-group">
@@ -21,12 +21,12 @@
 					        </div>
 					      </form>
 					        <ul class="nav navbar-nav">
-					        <li><a href="show_cart.php"><img src="image/icon/phone.png" height="20"><b> <font color="#0000FF">HotLine:(08)39974755</font> 
+					        <li><a href="show_cart.php"><img src="image/icon/phone.png" height="20"><b> <font color="#3366FF">HotLine:<font color="#ff0000">(08)39974755</font></font> 
 						    </b></a></li>
 					      </ul>
 					      <ul class="nav navbar-nav navbar-right">
 					        <li class="dropdown">
-					          <a class="dropdown-toggle"><b><font color="#0000FF">Đăng Nhập</font><b><span class="caret"></span></a>
+					          <a class="dropdown-toggle"><b><font color="#3366FF">Đăng Nhập</font><b><span class="caret"></span></a>
 					          <ul class="dropdown-menu">
 					            <li><a class="btn btn-link btn-sl" data-toggle="modal" data-target="#modallogin"><image src="image/icon/dn.jpg" width="20" height="20">Đăng Nhập</a></li>
 					             <li><a class="btn btn-link btn-sl" data-toggle="modal" data-target="#modalpugin"><image src="image/icon/dk.png" width="20" height="20">   Đăng Ký</a></li>
