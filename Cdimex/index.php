@@ -47,7 +47,25 @@
         color: #0380ff;
     }
   </style>
-  
+  <script type="text/javascript">
+
+/***********************************************
+* Email Validation script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice must stay intact for legal use.
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var emailfilter=/^\w+[\+\.\w-]*@([\w-]+\.)*\w+[\w-]*\.([a-z]{2,4}|\d+)$/i
+
+function checkmail(e){
+var returnval=emailfilter.test(e.value)
+if (returnval==false){
+alert("Please enter a valid email address.")
+e.select()
+}
+return returnval
+}
+</script>
 </head>
 <body>
     <div class="container">
@@ -101,7 +119,7 @@
 								  <div class="form-group">
 								    <div class="col-sm-offset-2 col-sm-10">
 								      <button type="button" class="btn btn-link">Quên mật khẩu</button>
-				       				 <button type="button" class="btn btn-primary">Đăng Nhập</button>
+				       				 <button type="button" class="btn btn-primary" ">Đăng Nhập</button>
 								    </div>
 								  </div>
 							</form>
@@ -164,7 +182,7 @@
 								    </div>
 								  <div class="form-group">
 								    <div class="col-sm-offset-4 col-sm-10">
-				       				 <button type="button" class="btn btn-primary">Đăng Ký</button>
+				       				 <button type="button" class="btn btn-primary" onclick="return checkemail(inputEmail3)">Đăng Ký</button>
 								    </div>
 								  </div>
 							</form>
