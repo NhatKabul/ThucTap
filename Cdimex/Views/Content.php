@@ -81,6 +81,7 @@
 				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				  </section>
+				  <a  href="#"><p align="center"> Xem tất cả</p></a>
 				  <div id="phanvung">
 					<p><b>Thiết Bị Số</b></p>
 				  </div>
@@ -138,6 +139,7 @@
 				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				  </section>
+				  <a href="#"> <p align="center">Xem tất cả</p></a>
 				  <div id="phanvung">
 					<p><b>Phụ Kiện</b></p>
 				  </div>
@@ -195,6 +197,7 @@
 				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				  </section>
+				  <a href="#"> <p align="center">Xem tất cả</p></a>
 				</div>
 				<div class="col-xs-3 col-xs-6 navbar-right">
 					<div class="box_produt_hot">
