@@ -32,7 +32,7 @@
 				  </div>
 				  <section class="center slider">
 				    <div>
-				      <img src="image/HinhSach/9780132056779.jpg" height="200px">
+				      <a href="Chitietsanpham.php"><img src="image/HinhSach/9780132056779.jpg" height="200px"></a>
 				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
 				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
 				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>

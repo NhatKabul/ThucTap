@@ -38,7 +38,6 @@
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -70,7 +69,7 @@
 					<div id="cssmenu" class="navbar-left col-xs-2">
 								<p class="danhmuc">Danh Mục</p>
 								<ul>
-								   <li class="active"><a href='index.html'><span>Home</span></a></li>
+								   <li class="active"><a href='index.php'><span>Home</span></a></li>
 								   <li class="has-sub"><a href='#'><span>Products</span></a>
 								      <ul>
 								         <li class="has-sub"><a href='#'><span>Product 1</span></a>
@@ -92,18 +91,38 @@
 								   <li><a href='#'><span>About</span></a></li>
 								   <li class="has-sub"><a href='#'><span>Products</span></a>
 								      <ul>
-								         <li class="has-sub"><a href='#'><span>Product 1</span></a>
-								            <ul>
-								               <li><a href='#'><span>Sub Item</span></a></li>
-								               <li><a href='#'><span>Sub Item</span></a></li>
-								            </ul>
-								         </li>
-								         <li class="has-sub"><a href='#'><span>Product 2</span></a>
-								            <ul>
-								               <li><a href='#'><span>Sub Item</span></a></li>
-								               <li><a href='#'><span>Sub Item</span></a></li>
-								            </ul>
-								         </li>
+								         <li>
+								            <div class="div-menu">
+													<div class="col-md-3">
+														<p>Tiêu đề 1</p>
+														<button class="btn btn-link">Chi tiết tiêu đề 1</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 2</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 3</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 4</button>
+													</div>
+													<div class="col-md-3">
+														<p>Tiêu đề 2</p>
+														<button class="btn btn-link">Chi tiết tiêu đề 1</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 2</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 3</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 4</button>
+													</div>
+													<div class="col-md-3">
+														<p>Tiêu đề 3</p>
+														<button class="btn btn-link">Chi tiết tiêu đề 1</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 2</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 3</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 4</button>
+													</div>
+													<div class="col-md-3">
+														<p>Tiêu đề 4</p>
+														<button class="btn btn-link">Chi tiết tiêu đề 1</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 2</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 3</button>
+														<button class="btn btn-link">Chi tiết tiêu đề 4</button>
+													</div>
+									     	</div>
+									     </li>
 								      </ul>
 								   </li>
 								   <li><a href='#'><span>About</span></a></li>

@@ -3,7 +3,7 @@
 				<div class="bgfooter">
 					<div class="col-xs-3">
 						<br>
-						<font><h3><b>DỊCH VỤ</b></h2></font>
+						<font><h3><b>DỊCH VỤ</b></h3></font>
 						<p>_____________________________________</p>
 						<br>
 						<div class="box_pr_title">
@@ -23,7 +23,7 @@
 					</div>
 					<div class="col-xs-3">
 						<br>
-						<font><h3><b>HỔ TRỢ</b></h2></font>
+						<font><h3><b>HỔ TRỢ</b></h3></font>
 						<p>_____________________________________</p>
 						<br>
 						<div class="box_pr_title">
@@ -38,7 +38,7 @@
 					</div>
 					<div class="col-xs-3">
 						<br>
-						<font><h3><b>TÀI KHOẢN</b></h2></font>
+						<font><h3><b>TÀI KHOẢN</b></h3></font>
 						<p>_____________________________________</p>
 						<br>
 						<div class="box_pr_title">
@@ -53,7 +53,7 @@
 					</div>
 					<div class="col-xs-3">
 						<br>
-						<font><h3><b>LIÊN HỆ</b></h2></font>
+						<font><h3><b>LIÊN HỆ</b></h3></font>
 						<p>________________________________</p>
 						<br>
 						<div class="col-xs-3">
