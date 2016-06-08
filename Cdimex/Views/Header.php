@@ -10,7 +10,7 @@
 						    </span></b></a></li>
 					      </ul>
 					       <ul class="nav navbar-nav">
-					        <li><a href="show_cart.php"><img src="image/icon/hotline.jpg" height="20"><b><font color="#0000FF">Ho Tro Khach Hang </font> </b></a></li>
+					        <li><a href="show_cart.php"><img src="image/icon/hotline.jpg" height="20"><b><font color="#0000FF"> Hỗ Trợ Khách Hàng</font> </b></a></li>
 					      </ul>
 					      <form class="navbar-form navbar-left" role="search">
 					        <div class="input-group">
@@ -37,7 +37,7 @@
 					  </div><!-- /.container-fluid -->
 					</nav>
 				</div> 
-				<div class="row container-fuild">
+				<div class="row container">
 					<div class="navbar-right col-xs-10">
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indicators -->
