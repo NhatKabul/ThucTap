@@ -6,7 +6,7 @@
 					    <!-- Collect the nav links, forms, and other content for toggling -->
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					      <ul class="nav navbar-nav">
-					        <li><a href="show_cart.php"><img src="image/icon/images.png" height="20"><b> <font color="#0000FF">Giỏ Hàng</font> <span class="badge">0
+					        <li><a href="Giohang.php"><img src="image/icon/images.png" height="20"><b> <font color="#0000FF">Giỏ Hàng</font> <span class="badge">0
 						    </span></b></a></li>
 					      </ul>
 					       <ul class="nav navbar-nav">
