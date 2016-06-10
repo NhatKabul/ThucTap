@@ -79,7 +79,38 @@
 								   <li class="active"><a href='index.php'><span>Home</span></a></li>
 								   <li class="has-sub"><a href='#'><span>SÁCH CHUYÊN KHẢO</span></a>
 								   		<ul>
-								         <li class="has-sub"><a href='#'><span>KINH TẾ</span></a>
+								   			<li>
+									            <div class="div-menu">
+														<div class="col-md-2">
+															<p>KINH TẾ</p>
+															<button class="btn btn-link">Marketing</button>
+															<button class="btn btn-link">Social Sciences</button>
+															<button class="btn btn-link">Management</button>
+															<button class="btn btn-link">Finance & Accounting</button>
+															<button class="btn btn-link">Statistics</button>
+															<button class="btn btn-link">Business</button>
+															<button class="btn btn-link">Economics</button>
+														</div>
+														<div class="col-md-2">
+															<p>GIÁO DỤC</p>
+															<button class="btn btn-link">Environmental Science</button>
+															<button class="btn btn-link">Design</button>
+															<button class="btn btn-link">Materials Science</button>
+															<button class="btn btn-link">Education</button>
+															<button class="btn btn-link">Engineering & Technology</button>
+															<button class="btn btn-link">Agriculture</button>
+															<button class="btn btn-link">Computer Science</button>
+															<button class="btn btn-link">Medicine</button>
+															<button class="btn btn-link">Sciences</button>
+
+														</div>
+														<div class="col-md-2">
+															<p>Sách khác</p>
+															<button class="btn btn-link">OTHER SUBJECTS</button>
+														</div>
+										     	</div>
+									     </li>
+								         <!-- <li class="has-sub"><a href='#'><span>KINH TẾ</span></a>
 								            <ul>
 								               <li><a href='#'><span>Marketing</span></a></li>
 								               <li><a href='#'><span>Social Sciences</span></a></li>
@@ -103,34 +134,57 @@
 								               <li><a href='#'><span>Sciences</span></a></li>
 								            </ul>
 								         </li>
-								         <li><a href='#'><span>OTHER SUBJECTS</span></a></li>
+								         <li><a href='#'><span>OTHER SUBJECTS</span></a></li> -->
 								      	</ul>
 								    </li>
 								   <li class="has-sub"><a href='#'><span>SÁCH HỌC TIÊNG ANH</span></a>
 								      <ul>
-								        
-								               <li><a href='#'><span>Primary</span></a></li>
+								        <li>
+							            	<div class="div-menu">
+												<div class="col-md-1">
+
+													<button class="btn btn-link">Primary</button>
+													<button class="btn btn-link">Secondary</button>
+													<button class="btn btn-link">Adults</button>
+													<button class="btn btn-link">Skills</button>
+													<button class="btn btn-link">Exams</button>
+													<button class="btn btn-link">Professional English</button>
+													<button class="btn btn-link">Teachers Resources</button>
+
+												</div>
+											</div>
+										</li>
+								               <!-- <li><a href='#'><span>Primary</span></a></li>
 								               <li><a href='#'><span>Secondary</span></a></li>
 								               <li><a href='#'><span>Adults</span></a></li>
 								               <li><a href='#'><span>Skills</span></a></li>
 								               <li><a href='#'><span>Exams</span></a></li>
 								               <li><a href='#'><span>Professional English</span></a></li>
-								               <li><a href='#'><span>Teachers Resources</span></a></li>
+								               <li><a href='#'><span>Teachers Resources</span></a></li> -->
 								            
 								      </ul>
 								   </li>
 								   <li class="has-sub"><a href='#'><span>SÁCH GIÁO DỤC K-12</span></a>
 								   		<ul>
-								        
-								               <li><a href='#'><span>Kindergarten</span></a></li>
+								   			<li>
+								            	<div class="div-menu">
+													<div class="col-md-1">
+														<button class="btn btn-link">Kindergarten</button>
+														<button class="btn btn-link">Rimary</button>
+														<button class="btn btn-link">Secondary</button>
+														<button class="btn btn-link">High School</button>
+														<button class="btn btn-link">Reading</button>
+														<button class="btn btn-link">Flashcard BlueUp</button>
+													</div>
+												</div>
+											</li>
+								               <!-- <li><a href='#'><span>Kindergarten</span></a></li>
 								               <li><a href='#'><span>Rimary</span></a></li>
 								               <li><a href='#'><span>Secondary</span></a></li>
 								               <li><a href='#'><span>High School</span></a></li>
 								               <li><a href='#'><span>Reading</span></a></li>
-								               <li><a href='#'><span>Flashcard BlueUp</span></a></li>
-								            
+								               <li><a href='#'><span>Flashcard BlueUp</span></a></li> -->
 								      </ul>
-
 								   <li><a href='#'><span>SÁCH BÁN CHẠY</span></a></li>
 								   <li><a href='#'><span>SÁCH GIẢM GIÁ</span></a></li>
 								   <li><a href='#'><span>SÁCH MỚI</span></a></li>
