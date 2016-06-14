@@ -82,7 +82,7 @@
 								   			<li>
 									            <div class="div-menu">
 														<div class="col-md-2">
-															<p>KINH TẾ</p>
+															<!-- <p>KINH TẾ</p> -->
 															<button class="btn btn-link">Marketing</button>
 															<button class="btn btn-link">Social Sciences</button>
 															<button class="btn btn-link">Management</button>
@@ -92,7 +92,7 @@
 															<button class="btn btn-link">Economics</button>
 														</div>
 														<div class="col-md-2">
-															<p>GIÁO DỤC</p>
+															<!-- <p>GIÁO DỤC</p> -->
 															<button class="btn btn-link">Environmental Science</button>
 															<button class="btn btn-link">Design</button>
 															<button class="btn btn-link">Materials Science</button>
@@ -105,7 +105,7 @@
 
 														</div>
 														<div class="col-md-2">
-															<p>Sách khác</p>
+															<!-- <p>Sách khác</p> -->
 															<button class="btn btn-link">OTHER SUBJECTS</button>
 														</div>
 										     	</div>

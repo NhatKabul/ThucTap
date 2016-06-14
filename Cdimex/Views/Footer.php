@@ -27,7 +27,7 @@
 						<br>
 						<div class="col-xs-12 border2"></div>
 						<div class="box_pr_title">
-							<h3><a href="GioithieuCdimex.php">- Giới thiệu CDIMEX</a></h3>
+							<h3><a href="GioithieuCdimex.php">- Giới thiệu chung</a></h3>
 						</div>
 						<br>
 					</div>
