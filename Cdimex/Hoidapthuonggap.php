@@ -176,12 +176,12 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<div class="container">
+			<div class="container row">
 				<div class="navbar">
 					<div class="col-xs-12">
 						<h4><br><font color="ff0000">HỎI - ĐÁP THƯỜNG GẶP</font></h3>
 					</div>
-					<div class="col-xs-12 border row"></div>
+					<div class="col-xs-12 border"></div>
 					<div class="container"><font class="font-tintuc">
 						Những câu Hỏi - Đáp sau đây sẽ phần nào giải đáp những thắc mắc của bạn khi mua hàng tại website chúng tôi.<br><br>
 

@@ -176,12 +176,12 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<div class="container">
+			<div class="container row">
 				<div class="navbar">
 					<div class="col-xs-12">
 						<h4><br><font color="ff0000">CHÍNH SÁCH BẢO MẬT</font></h3>
 					</div>
-					<div class="col-xs-12 border row"></div>
+					<div class="col-xs-12 border"></div>
 					<div class="container"><font class="font-tintuc">
 						Chào mừng quí khách đến với trung tam sách ngoại văn CDIMEX. Sau khi truy cập vào website CDIMEX để tham khảo hoặc mua sách, quí khách đã đồng ý tuân thủ và ràng buộc với những quy định của CDIMEX. Vui lòng xem kỹ các quy định và hợp tác với chúng tôi để xây dựng 1 website CDIMEX ngày càng thân thiện và phục vụ tốt những yêu cầu của chính quí khách. Ngoài ra, nếu có bất cứ câu hỏi nào về những thỏa thuận trên đây, vui lòng email cho chúng tôi qua địa chỉ cdimexco@cdimex.com.vn.
 					</div>

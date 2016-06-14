@@ -176,7 +176,7 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<div class="container">
+			<div class="container row">
 				<div class="navbar">
 					<div class="col-xs-12">
 						<h4><br><font color="ff0000">ĐIỀU KHOẢN SỬ DỤNG</font></h3>

@@ -176,12 +176,12 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<div class="container">
+			<div class="container row">
 				<div class="navbar">
 					<div class="col-xs-12">
 						<h4><br><font color="ff0000">GIỚI THIỆU CDIMEX</font></h3>
 					</div>
-					<div class="col-xs-12 border row"></div>
+					<div class="col-xs-12 border"></div>
 					<div class="container"><font class="font-tintuc">
 						<div class="font1">
 						Công ty Cổ phần Xuất nhập khẩu và Phát triển Văn hóa<br><br>
