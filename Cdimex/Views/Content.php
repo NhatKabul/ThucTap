@@ -8,7 +8,7 @@
 							});
 						});
 			</script>
-			<div class="container">
+			<div>
 				<script type="text/javascript">
 					$(function(){
 					$(window).scroll(function () {
@@ -514,7 +514,7 @@
 						});
 					});
 				</script>
-				<div class="col-xs-12 row">
+				<div class="col-xs-12">
 				  <div id="phanvung">
 					<p><b>Đối Tác</b></p>
 				  </div>
@@ -543,3 +543,4 @@
 				  </section>
 				</div>
 			</div>
+		</div>

@@ -1,5 +1,5 @@
 
-			<div class="row navbar">
+			<div class="container navbar">
 				<div class="bgfooter">
 					<div class="col-xs-3">
 						<br>
