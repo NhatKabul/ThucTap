@@ -804,6 +804,15 @@ img {
     font-size: 14px;
     line-height: 18px;
 }
+.box_pr_title2 a {
+    color: #444444;
+    text-decoration: none;
+
+}
+.box_pr_title2 a:hover {
+    color: #337ab7;
+    text-decoration: none;
+}
 .news_cont {
     color: #999;
     font-size: 14px;
