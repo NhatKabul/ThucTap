@@ -8,7 +8,7 @@
 							});
 						});
 			</script>
-			<div>
+			<div class="container">
 				<script type="text/javascript">
 					$(function(){
 					$(window).scroll(function () {
@@ -543,4 +543,3 @@
 				  </section>
 				</div>
 			</div>
-		</div>
