@@ -47,25 +47,6 @@
         color: #0380ff;
     }
   </style>
-  <script type="text/javascript">
-
-/***********************************************
-* Email Validation script- © Dynamic Drive (www.dynamicdrive.com)
-* This notice must stay intact for legal use.
-* Visit http://www.dynamicdrive.com/ for full source code
-***********************************************/
-
-var emailfilter=/^\w+[\+\.\w-]*@([\w-]+\.)*\w+[\w-]*\.([a-z]{2,4}|\d+)$/i
-
-function checkmail(e){
-var returnval=emailfilter.test(e.value)
-if (returnval==false){
-alert("Please enter a valid email address.")
-e.select()
-}
-return returnval
-}
-</script>
 </head>
 <body>
     <div class="container">
@@ -91,7 +72,7 @@ return returnval
 				      <div class="modal-header">
 				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 				        <h3  align="center" class="modal-title" id="myModalLabel"><image src="image/icon/login.png" width="30" height="30">  Đăng Nhập</h3>
-				     <!--  <p align="center">Nếu bạn chưa có tài khoản, <a href="#" align="left" data-toggle="modal" data-target="#modalpugin">Đăng Ký</a><p>-->
+				       <p align="center">Nếu bạn chưa có tài khoản, <a href="#" align="left" data-toggle="modal" data-target="#modalpugin">Đăng Ký</a><p>
 				      </div>
 				      <div class="modal-body">
 							<form class="form-horizontal" role="form">
@@ -118,8 +99,8 @@ return returnval
 								  </div>
 								  <div class="form-group">
 								    <div class="col-sm-offset-2 col-sm-10">
-								      <button type="button" class="btn btn-link">Quên mật khẩu</button>
-				       				 <button type="button" class="btn btn-primary" ">Đăng Nhập</button>
+								      <button type="button" class="btn btn-link" data-dismiss="modal">Quên mật khẩu</button>
+				       				 <button type="button" class="btn btn-primary">Đăng Nhập</button>
 								    </div>
 								  </div>
 							</form>
@@ -137,7 +118,7 @@ return returnval
 				      <div class="modal-header">
 				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 				        <h3  align="center" class="modal-title" id="myModalLabel"><image src="image/icon/login.png" width="30" height="30">  Đăng ký tài khoản</h3>
-				        <!--<p align="center">Nếu bạn đã có tài khoản, <a href="#"data-toggle="modal" data-target="#modallogin" >Đăng Nhập </a><p>-->
+				        <p align="center">Nếu bạn đã có tài khoản, <a href="#"data-toggle="modal" data-target="#modallogin" >Đăng Nhập </a><p>
 				      </div>
 				      <div class="modal-body">
 							<form class="form-horizontal" role="form">
@@ -182,7 +163,7 @@ return returnval
 								    </div>
 								  <div class="form-group">
 								    <div class="col-sm-offset-4 col-sm-10">
-				       				 <button type="button" class="btn btn-primary" onclick="return checkemail(inputEmail3)">Đăng Ký</button>
+				       				 <button type="button" class="btn btn-primary">Đăng Ký</button>
 								    </div>
 								  </div>
 							</form>
