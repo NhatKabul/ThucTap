@@ -51,7 +51,7 @@
 <body>
     <div class="container">
     	<div class="nen row navbar container"><!-- banner -->
-		  <div class="col-xs-2 row"><img src="image/logo/logo.png" width="100%" height="100%"></div>
+		  <div class="col-xs-2 row"><a href="index.php"><img src="image/logo/logo.png" width="100%" height="100%"></a></div>
 		  <div class="col-xs-10">
 		  	<h3 align="center" class="font-chu">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
 					VÀ PHÁT TRIỂN VĂN HÓA
@@ -176,7 +176,7 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<div class="container row">
+			<div class="container">
 				<div class="navbar">
 					<div class="col-xs-12">
 						<h4><br><font color="ff0000">GIỚI THIỆU CDIMEX</font></h3>

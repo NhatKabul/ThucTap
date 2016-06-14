@@ -51,7 +51,7 @@
 <body>
     <div class="container">
     	<div class="nen row navbar container"><!-- banner -->
-		  <div class="col-xs-2 row"><img src="image/logo/logo.png" width="100%" height="100%"></div>
+		  <div class="col-xs-2 row"><a href="index.php"><img src="image/logo/logo.png" width="100%" height="100%"></a></div>
 		  <div class="col-xs-10">
 		  	<h3 align="center" class="font-chu">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
 					VÀ PHÁT TRIỂN VĂN HÓA
@@ -176,14 +176,14 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<div class="container row">
+			<div class="container">
 				<div class="navbar">
 					<div class="col-xs-12">
 						<h4><br><font color="ff0000">ĐIỀU KHOẢN SỬ DỤNG</font></h3>
 					</div>
-					<div class="col-xs-12 border row"></div>
-					<div class="container"><font class="font-tintuc">Chào mừng quí khách đến với trung tam sách ngoại văn CDIMEX. Sau khi truy cập vào website CDIMEX để tham khảo hoặc mua sách, quí khách đã đồng ý tuân thủ và ràng buộc với những quy định của CDIMEX. Vui lòng xem kỹ các quy định và hợp tác với chúng tôi để xây dựng 1 website CDIMEX ngày càng thân thiện và phục vụ tốt những yêu cầu của chính quí khách. Ngoài ra, nếu có bất cứ câu hỏi nào về những thỏa thuận trên đây, vui lòng email cho chúng tôi qua địa chỉ cdimexco@cdimex.com.vn.
-
+					<div class="col-xs-12 border"></div>
+					<div class="container"><font class="font-tintuc">
+						Chào mừng quí khách đến với trung tam sách ngoại văn CDIMEX. Sau khi truy cập vào website CDIMEX để tham khảo hoặc mua sách, quí khách đã đồng ý tuân thủ và ràng buộc với những quy định của CDIMEX. Vui lòng xem kỹ các quy định và hợp tác với chúng tôi để xây dựng 1 website CDIMEX ngày càng thân thiện và phục vụ tốt những yêu cầu của chính quí khách. Ngoài ra, nếu có bất cứ câu hỏi nào về những thỏa thuận trên đây, vui lòng email cho chúng tôi qua địa chỉ cdimexco@cdimex.com.vn.
 					</div>
 				</div>
 			</div>
