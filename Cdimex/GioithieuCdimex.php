@@ -197,7 +197,7 @@
 					</div>
 					<div class="col-xs-12 border"></div>
 					<div class="container"><font class="font-tintuc">
-						<<div class="font-chu2"><font color="black">
+						<div class="font-chu2"><font color="black">
 						Công ty Cổ phần Xuất nhập khẩu và Phát triển Văn hóa<br>
 						- Tên giao dịch : CULTURAL DEVELOPMENT & IMPORT-EXPORT JOIN STOCK COMPANY<br>
 						- Tên viết tắt: CDIMEX<br>

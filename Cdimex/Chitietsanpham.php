@@ -176,7 +176,6 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<div>
 				<script type="text/javascript">
 					$(function(){
 					$(window).scroll(function () {
@@ -190,6 +189,57 @@
 				</script>
 				<div id="goTop" class="toTop">
 					<img src="image/icon/back-to-top.png"/>
+				</div>
+			<div class="container">
+			<div>
+				<div class="posdetail">
+					<div class="col-md-3">
+				        <div id="carousel" class="carousel slide" data-ride="carousel">
+				            <div class="carousel-inner">
+				                <div class="item active">
+				                    <img src="image/HinhSach/9780132056779.jpg">
+				                </div>
+				                <div class="item">
+				                    <img src="image/HinhSach/9780132056779.jpg">
+				                </div>
+				                <div class="item">
+				                    <img src="image/HinhSach/9780132056779.jpg">
+				                </div>
+				                <div class="item">
+				                    <img src="image/HinhSach/9780132056779.jpg">
+				                </div>
+				            </div>
+				        </div> 
+					    <div class="clearfix">
+					        <div id="thumbcarousel" class="carousel slide" data-interval="false">
+					            <div class="carousel-inner">
+					                <div class="item active">
+					                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="image/HinhSach/9780132056779.jpg"></div>
+					                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="image/HinhSach/9780132056779.jpg"></div>
+					                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="image/HinhSach/9780132056779.jpg"></div>
+					                    <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="image/HinhSach/9780132056779.jpg"></div>
+					                </div><!-- /item -->
+					            </div><!-- /carousel-inner -->
+					            <!-- <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+					                <span class="glyphicon glyphicon-chevron-left"></span>
+					            </a>
+					            <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+					                <span class="glyphicon glyphicon-chevron-right"></span>
+					            </a> -->
+					        </div> <!-- /thumbcarousel -->
+					    </div><!-- /clearfix -->
+				    </div> <!-- /col-md-4 -->
+				    <div class="col-md-4">
+				    	<p class="pos-tensach"><font class="tieude">Tên Sách: </font><font class="font-tensachdetail">Sách Giáo Khoa</font></p>
+					    <p class="pos-giasach"><font class="tieude">Tác Giả: </font><font class="name">ABC</font></p>
+					    <p class="pos-giasach"><font class="tieude">Nhà Xuất Bản: </font><font class="name">Kim Đồng</font></p>
+					    <p class="pos-giasach"><font class="tieude">Năm Xuất Bản: </font><font class="name">1995</font></p>
+					    <p class="pos-giasach"><font class="tieude">Giá: </font><font class="font-giasachdetail">400000 &#8363</font><font class="font-giamgia">-40%</font><font class="font-giadau">500000 &#8363</font></p>
+					    <p class="pos-giasach"><font class="tieude">Tình Trạng: </font><font class="conhang">Còn hàng</font></p></p>
+				    </div>
+				    <div class="col-md-5">
+				    	<p class="pos-tensach"></p>
+				    </div>
 				</div>
 			</div>
 			<!-- end content -->

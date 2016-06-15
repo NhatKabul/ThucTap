@@ -176,7 +176,7 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<script type="text/javascript">
+				<script type="text/javascript">
 					$(function(){
 					$(window).scroll(function () {
 					if ($(this).scrollTop() > 100) $('#goTop').fadeIn();
@@ -193,11 +193,38 @@
 			<div class="container row">
 				<div class="navbar">
 					<div class="col-xs-12">
-						<h4><br><font color="ff0000">CHÍNH SÁCH BẢO MẬT</font></h3>
+						<br><p class="font-footer2"><font>CHÍNH SÁCH BẢO MẬT</font></p><br>
 					</div>
 					<div class="col-xs-12 border"></div>
 					<div class="container"><font class="font-tintuc">
-						Chào mừng quí khách đến với trung tam sách ngoại văn CDIMEX. Sau khi truy cập vào website CDIMEX để tham khảo hoặc mua sách, quí khách đã đồng ý tuân thủ và ràng buộc với những quy định của CDIMEX. Vui lòng xem kỹ các quy định và hợp tác với chúng tôi để xây dựng 1 website CDIMEX ngày càng thân thiện và phục vụ tốt những yêu cầu của chính quí khách. Ngoài ra, nếu có bất cứ câu hỏi nào về những thỏa thuận trên đây, vui lòng email cho chúng tôi qua địa chỉ cdimexco@cdimex.com.vn.
+					<div class="font-chu2">
+						Bảo mật thông tin khách hàng là một trong những ưu tiên nhằm tạo điều kiện mua sắm tốt nhất cho quí khách tại 
+						CDIMEX. Chúng tôi hiểu sử dụng hợp lý và bảo mật thông tin sẽ thể hiện sự quan tâm của CDIMEX dành cho quí khách. 
+						Vì thế, CDIMEX cam kết việc sử dụng thông tin trên sẽ chỉ nhằm nâng cao chất lượng dịch vụ khách hàng và tạo môi 
+						trường mua sắm an tòan, tiện lợi tại CDIMEX. Cụ thể, thông tin của quí khách chỉ dùng để:<br><br>
+
+						Cung cấp một số tiện ích, nâng cao chất lượng dịch vụ hỗ trợ khách hàng<br><br>
+
+						Giải quyết các vấn đề, tranh chấp phát sinh liên quan đến việc sử dụng website cdimex.com<br><br>
+
+						Ngăn chặn những hoạt động vi phạm pháp luật Việt Nam<br><br>
+
+						CDIMEX cam đoan sẽ không bán, chia sẻ dẫn đến làm lộ thông tin cá nhân của quí khách vì mục đích thương mại vi 
+						phạm cam kết của chúng tôi ghi trong chính sách bảo mật này. Tất cả thông tin giao dịch giữa quí khách và CDIMEX 
+						sẽ được bảo mật.<br>
+						Tuy nhiên, quí khách không nên trao đổi những thông tin tài khoản,thanh toán, giao nhận của mình cho 1 bên thứ 3 
+						nào khác để tránh rò rỉ thông tin. Khi sử dụng chung máy tính với nhiều người, vui lòng thoát khỏi tài khoản mỗi 
+						khi không sử dụng dịch vụ của CDIMEX nữa để tự bảo vệ thông tin về mật khẩu truy cập của mình.<br>
+						Ngoài ra, quí khách tuyệt đối không được sử dụng bất kỳ hình thức nào để can thiệp vào hệ thống hay làm thay đổi 
+						cấu trúc dữ liệu. Chúng tôi nghiêm cấm việc phát tán, truyền bá hay cổ vũ cho bất kỳ hoạt động nào nhằm can thiệp, 
+						phá hoại hay xâm nhập vào dữ liệu của hệ thống website. Mọi vi phạm sẽ bị tước bỏ mọi quyền lợi cũng như sẽ bị truy 
+						tố trước pháp luật nếu cần thiết. Mọi thông tin của quí khách tại CDIMEX sẽ được chúng tôi bảo mật nhưng trong trường 
+						hợp pháp luật yêu cầu, chúng tôi buộc phải cung cấp thông tin này cho cơ quan pháp luật.<br>
+						CDIMEX hiểu rằng quyền lợi của quí khách trong việc bảo vệ thông tin cá nhân cũng chính là trách nhiệm của chúng tôi 
+						nên trong bất kỳ trường hợp có thắc mắc, góp ý nào liên quan đến chính sách bảo mật của CDIMEX, vui lòng liên hệ:
+						<br><i>Tel: 08.39974755 – 08.39973371<br>
+						Email: cdimexco@cdimex.com.vn</i>	
+					</div>
 					</div>
 				</div>
 			</div>
