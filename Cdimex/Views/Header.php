@@ -37,7 +37,7 @@
 					  </div><!-- /.container-fluid -->
 					</nav>
 				</div> 
-				<div class="row container">
+				<div class="row container-fuild">
 					<div class="navbar-right col-xs-10">
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indicators -->

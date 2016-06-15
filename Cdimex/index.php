@@ -119,7 +119,7 @@ return returnval
 								  <div class="form-group">
 								    <div class="col-sm-offset-2 col-sm-10">
 								      <button type="button" class="btn btn-link">Quên mật khẩu</button>
-				       				 <button type="button" class="btn btn-primary" ">Đăng Nhập</button>
+				       				 <button type="button" class="btn btn-primary">Đăng Nhập</button>
 								    </div>
 								  </div>
 							</form>
@@ -195,6 +195,20 @@ return returnval
 				</div>
 			</div>
 			<!-- start content -->
+			<script type="text/javascript">
+					$(function(){
+					$(window).scroll(function () {
+					if ($(this).scrollTop() > 100) $('#goTop').fadeIn();
+					else $('#goTop').fadeOut();
+					});
+					$('#goTop').click(function () {
+					$('body,html').animate({scrollTop: 0}, 'slow');
+					});
+				});
+				</script>
+				<div id="goTop" class="toTop">
+					<img src="image/icon/back-to-top.png"/>
+				</div>
 			<?php
 				include("Views/Content.php");
 			?>

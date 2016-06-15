@@ -9,20 +9,6 @@
 						});
 			</script>
 			<div class="container">
-				<script type="text/javascript">
-					$(function(){
-					$(window).scroll(function () {
-					if ($(this).scrollTop() > 100) $('#goTop').fadeIn();
-					else $('#goTop').fadeOut();
-					});
-					$('#goTop').click(function () {
-					$('body,html').animate({scrollTop: 0}, 'slow');
-					});
-				});
-				</script>
-				<div id="goTop" class="toTop">
-					<img src="image/icon/back-to-top.png"/>
-				</div>
 				<div class="col-xs-9 navbar-left">
 				  <div id="phanvung">
 					<p><b>Thời Trang</b></p>
