@@ -234,6 +234,14 @@
 			color: #feffff;
 			background-color: #337ab7;
 }
+.font-footer2{
+			margin: 0px;
+			padding: 1px 10px;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 20px;
+			color: #feffff;
+			background-color: #337ab7;
+}
 .div-menu{
 			width: 1000px;
 			height: 300px;

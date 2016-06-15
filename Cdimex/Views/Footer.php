@@ -1,6 +1,6 @@
 
-			<div class="container navbar">
-				<div class="bgfooter">
+			<div class="navbar">
+				<div class="">
 					<div class="col-xs-3">
 						<font><h3><b>DỊCH VỤ</b></h3></font>
 					</div>
@@ -34,12 +34,23 @@
 					<div class="col-xs-3">
 						<br>
 						<div class="box_pr_title">
-							<h3><a href="Hoidapthuonggap.php">- Hỏi-đáp thường gặp</a></h3>
+							<h3><a href="Hinhthucthanhtoan.php">- Hình thức thanh toán</a></h3>
 						</div>
 						<br>
 						<div class="col-xs-12 border2"></div>
 						<div class="box_pr_title">
-							<h3><a href="#">- Hướng dẫn đặt hàng</a></h3>
+							<h3><a href="Huongdandathang.php">- Hướng dẫn đặt hàng</a></h3>
+						</div>
+						<br>
+						
+						<div class="col-xs-12 border2"></div>
+						<div class="box_pr_title">
+							<h3><a href="Hinhthucvanchuyen.php">- Vận chuyển</a></h3>
+						</div>
+						<br>
+						<div class="col-xs-12 border2"></div>
+						<div class="box_pr_title">
+							<h3><a href="Doihang.php">- Đổi hàng/trả hàng</a></h3>
 						</div>
 						<br>
 					</div>
@@ -68,16 +79,17 @@
 						<div class="col-xs-3">
 							<img src="image/icon/email.png" width="30" height="30">
 						</div>
-						<p>cdimexco@cdimex.com.vn</p>
+						<div class="box_pr_title2"><a href="https://accounts.google.com/ServiceLogin?hl=vi">
+							cdimexco@cdimex.com.vn</a></div>
 						<div class="col-xs-12 border2"></div>
 						<div class="col-xs-3">
-							<img src="image/icon/phone.png" width="30" height="30">
+							<br><img src="image/icon/phone.png" width="30" height="30">
 						</div>
-						<p>08.39974755 – 08.39973371  08.39970829</p>
+						<p><br>08.39974755 – 08.39973371  08.39970829</p>
 					</div>
 					
-				<h5><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CÔNG TY TNHH MTV XUẤT NHẬP KHẨU VÀ PHÁT TRIỂN VĂN HÓA.<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Giấy chứng nhận đăng ký kinh doanh số: 0300444623 cấp ngày 28/03/2011.</b><h5><br>
+				<h5><div class="font-chu2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CÔNG TY TNHH MTV XUẤT NHẬP KHẨU VÀ PHÁT TRIỂN VĂN HÓA.<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Giấy chứng nhận đăng ký kinh doanh số: 0300444623 cấp ngày 28/03/2011.</div><h5><br>
 				<!-- <p align="center" class="font-footer"><font>Copyright &copy; Cdimex</font></p> -->
 				</div>
 			</div>

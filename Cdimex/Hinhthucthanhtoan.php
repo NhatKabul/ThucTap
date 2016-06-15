@@ -176,59 +176,52 @@
 				</div>
 			</div>
 			<!-- start content -->
-			<script type="text/javascript">
-					$(function(){
-					$(window).scroll(function () {
-					if ($(this).scrollTop() > 100) $('#goTop').fadeIn();
-					else $('#goTop').fadeOut();
-					});
-					$('#goTop').click(function () {
-					$('body,html').animate({scrollTop: 0}, 'slow');
-					});
-				});
-				</script>
-				<div id="goTop" class="toTop">
-					<img src="image/icon/back-to-top.png"/>
-				</div>
 			<div class="container row">
 				<div class="navbar">
 					<div class="col-xs-12">
-						<br><p class="font-footer2"><font>GIỚI THIỆU CHUNG</font></p><br>
+						<br><p class="font-footer2"><font>HÌNH THỨC THANH TOÁN</font></p><br>
 					</div>
 					<div class="col-xs-12 border"></div>
 					<div class="container"><font class="font-tintuc">
-						<<div class="font-chu2"><font color="black">
-						Công ty Cổ phần Xuất nhập khẩu và Phát triển Văn hóa<br>
-						- Tên giao dịch : CULTURAL DEVELOPMENT & IMPORT-EXPORT JOIN STOCK COMPANY<br>
-						- Tên viết tắt: CDIMEX<br>
-						- Năm thành lập : 1996<br></FONT>
-						
-						<p align="center"><img src="image/logo/logo.png" width="12%" height="12%"><br>
-							99A Nguyễn Văn Trỗi, Phường 12, Quận Phú Nhuận, Tp. Hồ Chí Minh <br>
-							Điện thọai : 08. 39974755 - 08.39973371 – 08.39970829<br>
-							Fax : 08.39973792<br>
-							Email: nhasachngoaivan@cdimex.com.vn hoặc  cdimexco@cdimex.com.vn<br>
-							Website: nhasachngoaivan.vn hoặc www.cdimex.com.vn<br>
-							Giấy chứng nhận đăng ký kinh doanh số : 0300444623<br>
-						</p>
-						
-							<font color="black"><p>LĨNH VỰC HOẠT ĐỘNG:<br>
+						<div class="font-chu2"><h4><b><font color="black">Thanh toán trong nước</font></b></h4>
 
-							<b>Xuất nhập khẩu và kinh doanh:</b> <br><br></font>
-							Sách báo, tạp chí, xuất bản phẩm và tài liệu khoa học kỹ thuật, văn hóa phục vụ cho các viện, trường đại học và thư viện trong nước.- 
-							Các loại vật tư, thiết bị, hàng hóa phục vụ ngành văn hóa như: nhạc cụ, thiết bị âm thanh ánh sáng dùng cho biểu diễn, hội nghị,
-							phòng thu… Tranh, tượng, đồ gỗ, sản phẩm mỹ nghệ, các chương trình âm thanh, chương trình hình ảnh động, các ấn phẩm, sản phẩm quảng cáo. - Vật tư thiết bị, nguyên vật liệu phục vụ sản xuất.
-							Vật tư thiết bị ngành in, các ấn phẩm in trên các chất liệu khác nhau.- Trang thiết bị văn phòng, văn hóa phẩm, vật liệu trang trí nội thất và các mặt hàng tiêu dùng khác.
-							Mua bán, cho thuê văn phòng làm việc.
-							Thi công thực hiện việc trang âm (cách âm, hút âm) cho phòng thu, nhà hát, phòng hội nghị… Hoàn thiện nội thất công trình.- Các sản phẩm văn hóa khác theo qui định của pháp luật.
+							<font color="blue">1. Thanh toán bằng tiền mặt:</font><br>
+							Nhân viên của công ty sẽ liên hệ với quí khách để hẹn lịch giao hàng. Trong trường hợp quí khách đi vắng, vui lòng uỷ thác cho người khác nhận hàng và thanh toán tiền thay.<br><br>
+
+							<font color="blue">2. Thanh toán qua ngân hàng:</font><br>
+
+							Quý khách nộp tiền vào tài khoản của công ty theo chi tiết sau:<br>
+
+							Người thụ hưởng: <font color="#333333">Công ty CỔ PHẦN XNK & Phát triển Văn hóa (CDIMEX)</font><br>
+
+							Tài khoản :<font color="#333333">102010000096355</font><br>
+
+							Tại : <font color="#333333">Ngân hàng Thương Mại Cổ Phần Công Thương Việt Nam _ Chi nhánh TP HCM</font><br><br>
+
+							<font color="blue">3. Thanh toán vào thẻ tín dụng:</font><br>
+
+							Quý khách vui lòng nộp tiền vào số thẻ tín dụng theo chi tiết sau:<br>
+
+							Loại thẻ:        <font color="#333333"> Visa Card</font><br>
+
+							Số TK thẻ :    <font color="#333333"> 200014948061503</font><br>
+
+							Ngân hàng:    <font color="#333333"> Eximbank</font>
 							<br><br>
-							<font color="black"><b>Dịch vụ:</b> <br></font>
-							Tư vấn đầu tư và tiếp nhận tài trợ để xây dựng công trình văn hóa.<br>
-							Đầu tư xây dựng các Trung tâm Văn hóa, các khu vui chơi giải trí. <br>
-							Quảng cáo, phát hành xuất bản phẩm. <br>
-							Tổ chức biểu diễn các chương trình ca nhạc chuyên nghiệp. <br>
-							Cà phê nhạc, biểu diễn thời trang, karaoke.<br></p>
-						</div>
+						<h4><b><font color="black">Thanh toán quốc tế</font></b></h4>
+
+							<font color="blue">Chuyển tiền Western Union:</font><br>
+
+							Quí khách vui lòng đến đại lý Western Union gần nhất (www.westernunion.com) để chuyển tiền cho chúng tôi theo thông tin dưới đây:<br>
+
+							Receiver: <font color="#333333">Lê Thị Hồng</font><br>
+							Address: <font color="#333333">99A Nguyen Van Troi Street - Phu Nhuan District, Ho Chi Minh city. Viet nam.</font><br>
+							Tel: <font color="#333333">84-8-39974755</font><br><br>
+
+							Giao tiền và phiếu gởi tiền cho Đại lý, bạn sẽ nhận biên lai với mã số chuyển tiền (MTCN - Money Transfer Control Number) gồm 10 số.<br>
+							Khi hoàn tất thủ tục chuyển tiền với Western Union, ban vui lòng cung cấp thông tin cuộc chuyển tiền gồm tên người gởi, nước gởi, số tiền và mã số chuyển tiền (MTCN) đến cho chúng tôi theo địa chỉ e-mail: <font color="#333333">nhasachngoaivan@cdimex.com.vn.</font> Ngay sau khi nhận được e-mail, chúng tôi sẽ tiến hành giao hàng ngay theo yêu cầu của bạn.<br><br>
+
+							(Điện thoại cho chúng tôi số: (84.8)-39974755 nếu bạn cần sự hỗ trợ)</div>
 					</div>
 				</div>
 			</div>
