@@ -8,6 +8,13 @@
 	font-weight: bold;
 	font-size:200%;
 }
+.font-chu2{
+    font-family: "Times New Roman", Times, serif;
+    color:#555555;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
 .box_produt_hot {
     float: left;
     margin-top: 30px;

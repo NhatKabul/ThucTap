@@ -119,7 +119,7 @@ return returnval
 								  <div class="form-group">
 								    <div class="col-sm-offset-2 col-sm-10">
 								      <button type="button" class="btn btn-link">Quên mật khẩu</button>
-				       				 <button type="button" class="btn btn-primary" ">Đăng Nhập</button>
+				       				 <button type="button" class="btn btn-primary">Đăng Nhập</button>
 								    </div>
 								  </div>
 							</form>
