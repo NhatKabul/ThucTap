@@ -57,7 +57,7 @@
 					<div class="col-xs-3">
 						<br>
 						<div class="box_pr_title">
-							<h3><a <a data-toggle="modal" data-target="#modallogin">- Đăng nhập/Tài khoản</a></h3>
+							<h3><a href="" data-toggle="modal" data-target="#modallogin">- Đăng nhập Tài khoản</a></h3>
 						</div>
 						<br>
 						<div class="col-xs-12 border2"></div>

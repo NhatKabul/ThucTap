@@ -28,8 +28,8 @@
 					        <li class="dropdown">
 					          <a class="dropdown-toggle"><b><font color="#3366FF">Đăng Nhập</font><b><span class="caret"></span></a>
 					          <ul class="dropdown-menu">
-					            <li><a class="btn btn-link btn-sl" data-toggle="modal" data-target="#modallogin"><image src="image/icon/dn.jpg" width="20" height="20">Đăng Nhập</a></li>
-					             <li><a class="btn btn-link btn-sl" data-toggle="modal" data-target="#modalpugin"><image src="image/icon/dk.png" width="20" height="20">   Đăng Ký</a></li>
+					            <li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modallogin"><image src="image/icon/dn.jpg" width="20" height="20"> Đăng Nhập</a></li>
+					            <li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modalpugin"><image src="image/icon/dk.png" width="20" height="20"> Đăng Ký</a></li>
 					          </ul>
 					        </li>
 					      </ul>
@@ -76,155 +76,65 @@
 					<div id="cssmenu" class="navbar-left col-xs-2">
 								<p class="danhmuc">Danh Mục</p>
 								<ul>
-								   <li class="active"><a href='index.php'><span>Home</span></a></li>
-								   <li class="has-sub"><a href='#'><span>SÁCH CHUYÊN KHẢO</span></a>
+									<?php
+										include("ketnoi.php");
+										$sql=mysql_query("SELECT * FROM menu");
+										while ($row=mysql_fetch_array($sql)) {
+									?>
+								   <li class="active"><a href='#'><span><?php echo $row[1];?></span></a>
 								   		<ul>
 								   			<li>
 									            <div class="div-menu">
-														<div class="col-md-2">
-															<!-- <p>KINH TẾ</p> -->
-															<button class="btn btn-link">Marketing</button>
-															<button class="btn btn-link">Social Sciences</button>
-															<button class="btn btn-link">Management</button>
-															<button class="btn btn-link">Finance & Accounting</button>
-															<button class="btn btn-link">Statistics</button>
-															<button class="btn btn-link">Business</button>
-															<button class="btn btn-link">Economics</button>
+														<div class="col-md-3">
+															<?php
+																$sql1=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]' limit 0,10");
+																while ($row1=mysql_fetch_array($sql1)) {
+															?>
+															<button class="btn btn-link menu" onclick="location.href='index.php'"><?php echo $row1[0];?></button>
+															<?php
+															}
+															?>
 														</div>
-														<div class="col-md-2">
-															<!-- <p>GIÁO DỤC</p> -->
-															<button class="btn btn-link">Environmental Science</button>
-															<button class="btn btn-link">Design</button>
-															<button class="btn btn-link">Materials Science</button>
-															<button class="btn btn-link">Education</button>
-															<button class="btn btn-link">Engineering & Technology</button>
-															<button class="btn btn-link">Agriculture</button>
-															<button class="btn btn-link">Computer Science</button>
-															<button class="btn btn-link">Medicine</button>
-															<button class="btn btn-link">Sciences</button>
-
+														<div class="col-md-3">
+															<?php
+																$sql1=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]' limit 11,20");
+																while ($row1=mysql_fetch_array($sql1)) {
+															?>
+															<button class="btn btn-link menu" onclick="location.href='index.php'"><?php echo $row1[0];?></button>
+															<?php
+															}
+															?>
 														</div>
-														<div class="col-md-2">
-															<!-- <p>Sách khác</p> -->
-															<button class="btn btn-link">OTHER SUBJECTS</button>
+														<div class="col-md-3">
+															<?php
+																$sql1=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]' limit 21,30");
+																while ($row1=mysql_fetch_array($sql1)) {
+															?>
+															<button class="btn btn-link menu" onclick="location.href='index.php'"><?php echo $row1[0];?></button>
+															<?php
+															}
+															?>
+														</div>
+														<div class="col-md-3">
+															<?php
+																$sql1=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]' limit 31,40");
+																while ($row1=mysql_fetch_array($sql1)) {
+															?>
+															<button class="btn btn-link menu" onclick="location.href='index.php'"><?php echo $row1[0];?></button>
+															<?php
+															}
+															?>
 														</div>
 										     	</div>
-									     </li>
-								         <!-- <li class="has-sub"><a href='#'><span>KINH TẾ</span></a>
-								            <ul>
-								               <li><a href='#'><span>Marketing</span></a></li>
-								               <li><a href='#'><span>Social Sciences</span></a></li>
-								               <li><a href='#'><span>Management</span></a></li>
-								               <li><a href='#'><span>Finance & Accounting</span></a></li>
-								               <li><a href='#'><span>Statistics</span></a></li>
-								               <li><a href='#'><span>Business</span></a></li>
-								               <li><a href='#'><span>Economics</span></a></li>
-								            </ul>
-								         </li>
-								         <li class="has-sub"><a href='#'><span>GIÁO DỤC</span></a>
-								            <ul>
-								               <li><a href='#'><span>Environmental Science</span></a></li>
-								               <li><a href='#'><span>Design</span></a></li>
-								               <li><a href='#'><span>Materials Science</span></a></li>
-								               <li><a href='#'><span>Education</span></a></li>
-								               <li><a href='#'><span>Engineering & Technology</span></a></li>
-								               <li><a href='#'><span>Agriculture</span></a></li>
-								               <li><a href='#'><span>Computer Science</span></a></li>
-								               <li><a href='#'><span>Medicine</span></a></li>
-								               <li><a href='#'><span>Sciences</span></a></li>
-								            </ul>
-								         </li>
-								         <li><a href='#'><span>OTHER SUBJECTS</span></a></li> -->
-								      	</ul>
-								    </li>
-								   <li class="has-sub"><a href='#'><span>SÁCH HỌC TIÊNG ANH</span></a>
-								      <ul>
-								        <li>
-							            	<div class="div-menu">
-												<div class="col-md-1">
-
-													<button class="btn btn-link">Primary</button>
-													<button class="btn btn-link">Secondary</button>
-													<button class="btn btn-link">Adults</button>
-													<button class="btn btn-link">Skills</button>
-													<button class="btn btn-link">Exams</button>
-													<button class="btn btn-link">Professional English</button>
-													<button class="btn btn-link">Teachers Resources</button>
-
-												</div>
-											</div>
-										</li>
-								               <!-- <li><a href='#'><span>Primary</span></a></li>
-								               <li><a href='#'><span>Secondary</span></a></li>
-								               <li><a href='#'><span>Adults</span></a></li>
-								               <li><a href='#'><span>Skills</span></a></li>
-								               <li><a href='#'><span>Exams</span></a></li>
-								               <li><a href='#'><span>Professional English</span></a></li>
-								               <li><a href='#'><span>Teachers Resources</span></a></li> -->
-								            
-								      </ul>
+									     	</li>
+										</ul>
 								   </li>
-								   <li class="has-sub"><a href='#'><span>SÁCH GIÁO DỤC K-12</span></a>
-								   		<ul>
-								   			<li>
-								            	<div class="div-menu">
-													<div class="col-md-1">
-														<button class="btn btn-link">Kindergarten</button>
-														<button class="btn btn-link">Rimary</button>
-														<button class="btn btn-link">Secondary</button>
-														<button class="btn btn-link">High School</button>
-														<button class="btn btn-link">Reading</button>
-														<button class="btn btn-link">Flashcard BlueUp</button>
-													</div>
-												</div>
-											</li>
-								               <!-- <li><a href='#'><span>Kindergarten</span></a></li>
-								               <li><a href='#'><span>Rimary</span></a></li>
-								               <li><a href='#'><span>Secondary</span></a></li>
-								               <li><a href='#'><span>High School</span></a></li>
-								               <li><a href='#'><span>Reading</span></a></li>
-								               <li><a href='#'><span>Flashcard BlueUp</span></a></li> -->
-								      </ul>
+								   <?php
+									}
+								   ?>
 								   <li><a href='#'><span>SÁCH BÁN CHẠY</span></a></li>
 								   <li><a href='#'><span>SÁCH GIẢM GIÁ</span></a></li>
 								   <li><a href='#'><span>SÁCH MỚI</span></a></li>
-								   <!-- <li class="has-sub"><a href='#'><span>Products</span></a>
-								      <ul>
-								         <li>
-								            <div class="div-menu">
-													<div class="col-md-3">
-														<p>Tiêu đề 1</p>
-														<button class="btn btn-link">Chi tiết tiêu đề 1</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 2</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 3</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 4</button>
-													</div>
-													<div class="col-md-3">
-														<p>Tiêu đề 2</p>
-														<button class="btn btn-link">Chi tiết tiêu đề 1</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 2</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 3</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 4</button>
-													</div>
-													<div class="col-md-3">
-														<p>Tiêu đề 3</p>
-														<button class="btn btn-link">Chi tiết tiêu đề 1</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 2</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 3</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 4</button>
-													</div>
-													<div class="col-md-3">
-														<p>Tiêu đề 4</p>
-														<button class="btn btn-link">Chi tiết tiêu đề 1</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 2</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 3</button>
-														<button class="btn btn-link">Chi tiết tiêu đề 4</button>
-													</div>
-									     	</div>
-									     </li>
-								      </ul>
-								   </li> -->
-
 								</ul>
 					</div>
 				</div>

@@ -187,48 +187,64 @@
 					});
 				});
 				</script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$('.autoplay').slick({
+						  slidesToShow: 1,
+						  slidesToScroll: 1,
+						  autoplay: true,
+						  autoplaySpeed: 2000,
+						});
+					});
+				</script>
 				<div id="goTop" class="toTop">
 					<img src="image/icon/back-to-top.png"/>
 				</div>
 			<div class="container">
-			<div>
 				<div class="posdetail">
 					<div class="col-md-3">
-				        <div id="carousel" class="carousel slide" data-ride="carousel">
-				            <div class="carousel-inner">
-				                <div class="item active">
-				                    <img src="image/HinhSach/9780132056779.jpg">
-				                </div>
-				                <div class="item">
-				                    <img src="image/HinhSach/9780132056779.jpg">
-				                </div>
-				                <div class="item">
-				                    <img src="image/HinhSach/9780132056779.jpg">
-				                </div>
-				                <div class="item">
-				                    <img src="image/HinhSach/9780132056779.jpg">
-				                </div>
-				            </div>
-				        </div> 
-					    <div class="clearfix">
-					        <div id="thumbcarousel" class="carousel slide" data-interval="false">
-					            <div class="carousel-inner">
-					                <div class="item active">
-					                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="image/HinhSach/9780132056779.jpg"></div>
-					                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="image/HinhSach/9780132056779.jpg"></div>
-					                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="image/HinhSach/9780132056779.jpg"></div>
-					                    <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="image/HinhSach/9780132056779.jpg"></div>
-					                </div><!-- /item -->
-					            </div><!-- /carousel-inner -->
-					            <!-- <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
-					                <span class="glyphicon glyphicon-chevron-left"></span>
-					            </a>
-					            <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
-					                <span class="glyphicon glyphicon-chevron-right"></span>
-					            </a> -->
-					        </div> <!-- /thumbcarousel -->
-					    </div><!-- /clearfix -->
-				    </div> <!-- /col-md-4 -->
+						<div class="row container">
+						  <a href="" data-toggle="modal" data-target="#myModal"><img src="image/HinhSach/9780132056779.jpg" width="250px" height="300px"></a>
+						  <div class="modal fade" id="myModal" role="dialog">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal">&times;</button>
+						          <h4 class="modal-title">Xem trước</h4>
+						        </div>
+						        <div class="modal-body row">
+										<section class="autoplay slider">
+										    <div>
+										      <img src="image/HinhSach/9780132056779.jpg" height="500px">
+										    </div>
+										    <div>
+										      <img src="image/HinhSach/9780132795470.jpg" height="500px">
+										    </div>
+										    <div>
+										      <img src="image/HinhSach/9780132336765.jpg" height="500px">
+										    </div>
+										    <div>
+										      <img src="image/HinhSach/9780132795470.jpg" height="500px">
+										    </div>
+										   <div>
+										      <img src="image/HinhSach/9780132881876.jpg" height="500px">
+										    </div>
+										    <div>
+										      <img src="image/HinhSach/9780133437546.jpg" height="500px">
+										    </div>
+										    <div>
+										      <img src="image/HinhSach/9780136038993.jpg" height="500px">
+										    </div>
+										</section>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				    </div> <!-- /col-md-3 -->
 				    <div class="col-md-4">
 				    	<p class="pos-tensach"><font class="tieude">Tên Sách: </font><font class="font-tensachdetail">Sách Giáo Khoa</font></p>
 					    <p class="pos-giasach"><font class="tieude">Tác Giả: </font><font class="name">ABC</font></p>
@@ -238,8 +254,22 @@
 					    <p class="pos-giasach"><font class="tieude">Tình Trạng: </font><font class="conhang">Còn hàng</font></p></p>
 				    </div>
 				    <div class="col-md-5">
-				    	<p class="pos-tensach"></p>
+				    	<p>Giới thiệu</p>
+				    	<font class="seo">
+				    		Sách báo, tạp chí, xuất bản phẩm và tài liệu khoa học kỹ thuật, văn hóa phục vụ cho các viện, trường đại học và thư viện trong nước.- 
+							Các loại vật tư, thiết bị, hàng hóa phục vụ ngành văn hóa như: nhạc cụ, thiết bị âm thanh ánh sáng dùng cho biểu diễn, hội nghị,
+							phòng thu… Tranh, tượng, đồ gỗ, sản phẩm mỹ nghệ, các chương trình âm thanh, chương trình hình ảnh động, các ấn phẩm, sản phẩm quảng cáo. - Vật tư thiết bị, nguyên vật liệu phục vụ sản xuất.
+							Vật tư thiết bị ngành in, các ấn phẩm in trên các chất liệu khác nhau.- Trang thiết bị văn phòng, văn hóa phẩm, vật liệu trang trí nội thất và các mặt hàng tiêu dùng khác.
+							Mua bán, cho thuê văn phòng làm việc.
+							Thi công thực hiện việc trang âm (cách âm, hút âm) cho phòng thu, nhà hát, phòng hội nghị… Hoàn thiện nội thất công trình.- Các sản phẩm văn hóa khác theo qui định của pháp luật.
+				    	</font>
 				    </div>
+				</div>
+				<div class="col-xs-12 container row">
+				  <div id="phanvung">
+					<p><b>SẢN PHẨM CÙNG LOẠI</b></p>
+				  </div>
+
 				</div>
 			</div>
 			<!-- end content -->
