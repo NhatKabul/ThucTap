@@ -50,15 +50,15 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner" role="listbox">
 						    <div class="item active">
-						      <img src="image/slideshow/hinh1.jpg" alt="Chania">
+						      <img src="image/slideshow/harrison.gif" alt="Chania">
 						    </div>
 
 						    <div class="item">
-						      <img src="image/slideshow/hinh2.jpg" alt="Chania">
+						      <img src="image/slideshow/4.jpg" alt="Chania">
 						    </div>
 
 						    <div class="item">
-						      <img src="image/slideshow/hinh3.jpg" alt="Flower">
+						      <img src="image/slideshow/5.jpg" alt="Flower">
 						    </div>
 						  </div>
 
