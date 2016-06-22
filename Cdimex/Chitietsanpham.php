@@ -47,6 +47,16 @@
         color: #0380ff;
     }
   </style>
+  <script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".center").slick({
+							dots: true,
+							infinite: true,
+							centerMode: false,
+							slidesToShow: 4,
+							});
+						});
+			</script>
 </head>
 <body>
     <div class="container">
@@ -268,6 +278,121 @@
 				<div class="col-xs-12 container row">
 				  <div id="phanvung">
 					<p><b>SẢN PHẨM CÙNG LOẠI</b></p>
+						<section class="center slider">
+				    <div>
+				      <img src="image/HinhSach/9780132056779.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780132336765.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				   <div>
+				      <img src="image/HinhSach/9780132881876.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780133437546.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780136038993.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				  </section>
+				   <div>
+				  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
+				  </div>
+				  </div>
+
+				</div>
+			</div>
+				<div class="col-xs-12 container row">
+				  <div id="phanvung">
+					<p><b>SẢN PHẨM CÙNG LOẠI</b></p>
+						<section class="center slider">
+				    <div>
+				      <img src="image/HinhSach/9780132056779.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780132336765.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				   <div>
+				      <img src="image/HinhSach/9780132881876.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780133437546.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				    <div>
+				      <img src="image/HinhSach/9780136038993.jpg" height="200px">
+				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				    </div>
+				  </section>
+				   <div>
+				  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
+				  </div>
 				  </div>
 
 				</div>

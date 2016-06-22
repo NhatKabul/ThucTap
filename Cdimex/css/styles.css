@@ -149,7 +149,7 @@
 			display: block;
 			position: relative;
 			margin: 30px;
-			border-bottom: 5px solid #01a8fe;
+			border-bottom: 25px solid #00CCCC;
 			padding: 30px 10px;
 			left: -25px;
 			width: 99%;
@@ -157,10 +157,10 @@
 
 			/* Typography */
 			font-family: Helvetica, Arial, sans-serif;
-			color: #656565;
+			color: #CC0000;
 			text-decoration: none;
 			text-transform: uppercase;
-			font-size: 19px;
+			font-size: 25px;
 			font-weight: bold;
 			text-align: center;
 		}
