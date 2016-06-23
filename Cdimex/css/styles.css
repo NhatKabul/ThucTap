@@ -176,12 +176,14 @@
 			display: block;
 			position: relative;
 			padding: 0px 13px;
+			height: 100px;
 }
 .pos-giasach{
 			top: 5px;
 			display: block;
 			position: relative;
 			padding: 0px 13px;
+			height: 20px;
 }
 .font-tensach{
 			font-family: Helvetica, Arial, sans-serif;
