@@ -8,16 +8,18 @@
 							});
 						});
 			</script>
-			<div class="container">
+			<div class="row">
 				<div class="col-xs-9 navbar-left">
 				<?php
 					$sql=mysql_query("SELECT * FROM menu");
 					while ($row=mysql_fetch_array($sql)) {
 				?>
-				  <div id="phanvung">
-					<p><b><?php echo $row[1]?></b></p>
+				  <div class="posdetail">
+				  	<ul class="nav nav-tabs">
+						    <li class="active"><a data-toggle="tab" href="#menu1"><font class="font-detail"><?php echo $row[1]?></font></a></li>
+					</ul>
 				  </div>
-				  <div>
+				  <div class="posdetail">
 				  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
 				  </div>
 				  <section class="center slider">

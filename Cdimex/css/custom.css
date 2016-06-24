@@ -38,3 +38,30 @@
   position: absolute;
   bottom: -15px;
 }
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  color: #5f5e5e;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+  color: black;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #fefefe;
+  cursor: default;
+  background-color: #01a8fe;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}

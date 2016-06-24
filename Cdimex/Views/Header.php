@@ -1,5 +1,5 @@
-			<div class="container">	
-				<div class="row">
+			<div>	
+				<div>
 					<nav class="navbar navbar-default navbar-fixed-top">
 					  <div class="container">
 
@@ -37,8 +37,8 @@
 					  </div><!-- /.container-fluid -->
 					</nav>
 				</div> 
-				<div class="row container-fuild">
-					<div class="navbar-right col-xs-10">
+				<div>
+					<div class="navbar-right col-xs-10 row">
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indicators -->
 						  <ol class="carousel-indicators">
@@ -73,7 +73,7 @@
 						  </a>
 						</div>
 					</div>
-					<div id="cssmenu" class="navbar-left col-xs-2">
+					<div id="cssmenu" class="navbar-left col-xs-2 row">
 								<p class="danhmuc">Danh Mục</p>
 								<ul>
 									<?php

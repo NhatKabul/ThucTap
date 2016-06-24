@@ -1,6 +1,7 @@
 
-			<div class="navbar">
+			<div class="row navbar">
 				<div class="">
+					<br><p class="font-footer2"></p><br>
 					<div class="col-xs-3">
 						<font><h3><b>DỊCH VỤ</b></h3></font>
 					</div>

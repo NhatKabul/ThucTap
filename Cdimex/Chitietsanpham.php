@@ -60,12 +60,9 @@
 </head>
 <body>
     <div class="container">
-    	<div class="nen row navbar container"><!-- banner -->
+    	<div class="nen row navbar navbar-default"><!-- banner -->
 		  <div class="col-xs-2 row"><a href="index.php"><img src="image/logo/logo.png" width="100%" height="100%"></a></div>
 		  <div class="col-xs-10">
-		  	<h3 align="center" class="font-chu">CÔNG TY TNHH MTV XUẤT NHẬP KHẨU <br>
-					VÀ PHÁT TRIỂN VĂN HÓA
-			</h3>
 		  </div>
 		</div><!-- banner -->
 		<div class="row">
@@ -210,7 +207,7 @@
 				<div id="goTop" class="toTop">
 					<img src="image/icon/back-to-top.png"/>
 				</div>
-			<div class="container">
+			<div class="row">
 				<div class="posdetail">
 					<div class="col-md-3">
 						<div class="row container">
@@ -275,58 +272,15 @@
 				    	</font>
 				    </div>
 				</div>
-				<div class="col-md-12">
-				<div class="container">
+				<div class="col-md-12 posdetail">
 						 <ul class="nav nav-tabs">
-						    <li><a data-toggle="tab" href="#menu1"> <font color="#CC0000">GIỚI THIỆU</font></a></li>
-						    <li><a data-toggle="tab" href="#menu2"><font color="#CC0000">THÔNG TIN</font></a></li>
-						    <li><a data-toggle="tab" href="#menu3"><font color="#CC0000">TAG</font></a></li>
+						    <li class="active"><a data-toggle="tab" href="#menu1">GIỚI THIỆU</font></a></li>
+						    <li><a data-toggle="tab" href="#menu2">THÔNG TIN</font></a></li>
+						    <li><a data-toggle="tab" href="#menu3">TAG</font></a></li>
 						 </ul>
 
 						 <div class="tab-content">
-						    <div id="home" class="tab-pane fade in active">
-						      <h3>GIỚI THIỆU</h3>
-						      <p>Bí mật ~ Giao ước bóng tối ~ là gì?<br>
-
-									Đây là một trong những ca khúc tiêu biểu của cặp ca sĩ Vocaloid (ca sĩ ảo) nổi tiếng Kagamine Rin/Len. Ca khúc này lần đầu được đăng tải vào tháng 4 năm 2010 và đã gây ra một cơn sốt trong cộng đồng fan hâm mộ. Sau đó, dựa theo thành công của MV ca nhạc này, tác giả Hitoshizuku đã cho ra đời phiên bản tiểu thuyết có tranh minh họa được thực hiện bởi họa sĩ tài năng Suzunosuke, với những miêu tả chi tiết hơn về câu chuyện.
-
-									Nội dung ca khúc là câu chuyện của hai thiếu nữ, một là thiên thần và một là con người. Vì tình yêu dành cho cô gái người trần, thiên thần đã cắt bỏ đôi cánh của mình, tình nguyện trở thành kẻ tội đồ. Dưới thân phận một người con trai phàm trần, thiên thần đã có một thời gian hạnh phúc với người mình yêu, thế nhưng không ai có thể ngờ một kết cục bất hạnh đang chờ họ ở phía trước. Hai mặt tính cách của cặp nhân vật Rin/Len, tình yêu với người thiếu nữ (Hatsune Miku) được lồng ghép vừa vặn khéo léo, cùng với những bức hình minh họa thu hút của Suzunosuke đã tạo nên một ca khúc vừa lãng mạn vừa ma mị bí ẩn.<br>
-
-									 
-
-									Mục Lục
-
-									Chương mở đầu
-
-									Chương một
-
-									Chương hai
-
-									Chương ba
-
-									Chương bốn
-
-									Chương kết
-
-									Ngoại truyện
-
-									Lời tác giả
-
-									Bản đồ vùng Belcanto và Tarde
-
-									 
-
-									Giới thiệu tác giả
-
-									HitoshizukuP
-
-									Tác phẩm đầu tiên sản xuất cho Vocaloid là Yamato Nadeshiko do Hatsune Miku trình diễn, ra mắt tháng 7 năm 2008. Chủ yếu tham gia việc chế tác các sản phẩm âm nhạc cho Vocaloid cùng với nhà sản xuất Yama Delta (chịu trách nhiệm phối khí và mix), ngoài ra còn tham gia trong tổ teamOS bao gồm thành viên là họa sĩ Suzunosuke. Không chỉ sáng tác cho Vocaloid, HitoshizukuP còn sản xuất nhạc cho game, cho các ca sĩ và biên tập CD. Trong các tác phẩm đại diện có hai ca khúc sử dụng 8 giọng Vocaloid khác nhau là Bad’End’Night và Crazy’nigh.
-
-									Suzunosuke
-
-									Là họa sĩ minh họa được biết đến qua các MV quảng bá ca khúc Vocaloid, các bìa đĩa CD album của Vocaloid. Công việc chính ban đầu là vẽ minh họa cho các ca khúc, sau này thì Suzunosuke đã kết hợp với các nhà sản xuất âm nhạc cho Vocaloid và thực hiện vẽ minh họa cho các MV. Gần đây, Suzunosuke không chỉ tham gia trong các dự án Vocaloid mà còn tham gia thiết kế nhân vật cho các tác phẩm dành cho thiếu nữ như các drama CD, kịch truyền thanh, kịch lồng tiếng và minh họa bìa.</p>
-						    </div>
-						    <div id="menu1" class="tab-pane fade">
+						    <div id="menu1" class="tab-pane fade in active">
 						      <h3>Menu 1</h3>
 						      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						    </div>
@@ -340,127 +294,61 @@
 						    </div>
 						 </div>
 				</div>
-				</div>
-				<div class="col-xs-12 container row">
+				<div class="col-xs-12">
 				  <div id="phanvung">
 					<p><b>SẢN PHẨM CÙNG LOẠI</b></p>
 						<section class="center slider">
-				    <div>
-				      <img src="image/HinhSach/9780132056779.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132336765.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				   <div>
-				      <img src="image/HinhSach/9780132881876.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780133437546.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780136038993.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				  </section>
-				   <div>
-				  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
+						    <div>
+						      <img src="image/HinhSach/9780132056779.jpg" height="200px">
+						      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+						      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+						      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+						      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+						    </div>
+						    <div>
+						      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+						      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+						      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+						      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+						      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+						    </div>
+						    <div>
+						      <img src="image/HinhSach/9780132336765.jpg" height="200px">
+						      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+						      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+						      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+						      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+						    </div>
+						    <div>
+						      <img src="image/HinhSach/9780132795470.jpg" height="200px">
+						      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+						      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+						      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+						      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+						    </div>
+						   <div>
+						      <img src="image/HinhSach/9780132881876.jpg" height="200px">
+						      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+						      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+						      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+						      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+						    </div>
+						    <div>
+						      <img src="image/HinhSach/9780133437546.jpg" height="200px">
+						      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+						      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+						      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+						      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+						    </div>
+						    <div>
+						      <img src="image/HinhSach/9780136038993.jpg" height="200px">
+						      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
+						      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
+						      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
+						      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+						    </div>
+						 </section>
 				  </div>
-				  </div>
-
-				</div>
-			</div>
-				<div class="col-xs-12 container row">
-				  <div id="phanvung">
-					<p><b>SẢN PHẨM CÙNG LOẠI</b></p>
-						<section class="center slider">
-				    <div>
-				      <img src="image/HinhSach/9780132056779.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132336765.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780132795470.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				   <div>
-				      <img src="image/HinhSach/9780132881876.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780133437546.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				    <div>
-				      <img src="image/HinhSach/9780136038993.jpg" height="200px">
-				      <p class="pos-tensach"><font class="font-tensach">Sách Giáo Khoa</font></p>
-				      <p class="pos-giasach"><font class="font-giasach">400000 &#8363</font><font class="font-giamgia">-40%</font></p>
-				      <p class="pos-giasach"><font class="font-giadau">500000 &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
-				    </div>
-				  </section>
-				   <div>
-				  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
-				  </div>
-				  </div>
-
 				</div>
 			</div>
 			<!-- end content -->
