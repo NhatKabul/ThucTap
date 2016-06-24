@@ -29,7 +29,7 @@
 				  			$giagiam=$row1[1] * $row1[2]/100;
 				  	?>
 				    <div>
-				      <a href="Chitietsanpham.php"><img src="<?php echo $row1[3]; ?>" height="200px"></a>
+				      <a href="Chitietsanpham.php"><img src="<?php echo $row1[3]; ?>" height="200px" width="100%"></a>
 				      <p class="pos-tensach"><font class="font-tensach"><?php echo $row1[0]; ?></font></p>
 				      <p class="pos-giasach"><font class="font-giasach"><?php echo $row1[1] - $giagiam; ?> &#8363</font><font class="font-giamgia">- <?php echo $row1[2]; ?>%</font></p>
 				      <p class="pos-giasach"><font class="font-giadau"><?php echo $row1[1]; ?> &#8363</font></p>
@@ -39,7 +39,7 @@
 					}
 					?>
 				  </section>
-				  <a  href="#"><p align="center"> Xem tất cả</p></a>
+				  <a  href="Load-SanPham.php?page=<?php echo $row[0] ?>"><p align="center">Xem tất cả</p></a>
 				<?php
 				}
 				?>
@@ -71,7 +71,7 @@
 							<?php
 							}
 							?>
-							<div class="more_view"><a href="/san-pham-noi-bat">Xem Thêm</a>
+							<div class="more_view"><a href="SanPham.php?page=luotmua">Xem Thêm</a>
 							</div>
 						</ul>
 					</div>
@@ -101,7 +101,7 @@
 							<?php
 							}
 							?>
-							<div class="more_view"><a href="/san-pham-noi-bat">Xem Thêm</a>
+							<div class="more_view"><a href="SanPham.php?page=giamgia">Xem Thêm</a>
 							</div>
 						</ul>
 					</div>

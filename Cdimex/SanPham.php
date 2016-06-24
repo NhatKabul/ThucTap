@@ -29,14 +29,17 @@
 				</div>
 			<div class="row">
 				<div class="col-xs-9">
-				<?php
-					$page=$_GET['page'];
-					$sql=mysql_query("SELECT * FROM menu WHERE id='$page'");
-					while ($row=mysql_fetch_array($sql)) {
-				?>
 				  <div class="posdetail">
 				  	<ul class="nav nav-tabs">
-						    <li class="active"><a data-toggle="tab" href="#menu1"><font class="font-detail"><?php echo $row[1]?></font></a></li>
+						    <li class="active"><a data-toggle="tab" href="#menu1"><font class="font-detail">
+						    <?php
+						    	$page=$_GET['page'];
+						    	if($page=='luotmua')
+						    		echo "Bán chạy";
+						    	else
+						    		echo "Giảm giá"; 
+						    ?>
+						    </font></a></li>
 					</ul>
 				  </div>
 				  <div class="posdetail">
@@ -44,7 +47,7 @@
 				  </div>
 				  <section>
 				  	<?php
-				  		$sql1=mysql_query("SELECT tensach, dongia, giamgia, hinhanh FROM products pd, menu_detail md, menu m WHERE m.id=md.menu_id AND md.tenmenu=pd.detail_id AND md.menu_id='$page' LIMIT 0,10");
+				  		$sql1=mysql_query("SELECT tensach, dongia, giamgia, hinhanh  FROM products ORDER BY $page DESC");
 				  		while ($row1=mysql_fetch_array($sql1)) {
 				  			$giagiam=$row1[1] * $row1[2]/100;
 				  	?>
@@ -59,9 +62,6 @@
 					}
 					?>
 				  </section>
-				<?php
-				}
-				?>
 				</div>
 			</div>
 			<!-- end content -->
