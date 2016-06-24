@@ -217,16 +217,79 @@
 
 						 <div class="tab-content">
 						    <div id="menu1" class="tab-pane fade in active">
-						      <h3>Menu 1</h3>
-						      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						      <table border="1" width="1130" height="90">
+						      	<tr>
+						      		<td>
+						      		 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+						      		 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+						      		</td>
+						      	</tr>
+						      </table>
+						   
 						    </div>
 						    <div id="menu2" class="tab-pane fade">
-						      <h3>Menu 2</h3>
-						      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+						      <table border="1"  width="1130" height="330">
+						      	<tr class="ctsp">
+						      		<td class="ctsp">
+						      			Mã hàng
+						      		</td>
+						      		<td>
+						      			Unknown
+						      		</td>
+						      	</tr>
+						      	<tr class="ctsp">
+						      		<td>
+						      			Tác giả
+						      		</td>
+						      		<td>
+						      			Unknown
+						      		</td>
+						      	</tr>
+						      	<tr class="ctsp">
+						      		<td>
+						      			NXB
+						      		</td>
+						      		<td>
+						      			Unknown
+						      		</td>
+						      	</tr>
+						      	<tr class="ctsp">
+						      		<td>
+						      			Năm XB
+						      		</td>
+						      		<td>
+						      			Unknown
+						      		</td>
+						      	</tr>
+						      	<tr class="ctsp">
+						      		<td>
+						      			Kích thước
+						      		</td>
+						      		<td>
+						      			Unknown
+						      		</td>
+						      	</tr>
+						      	<tr class="ctsp">
+						      		<td>
+						      			Ngôn ngữ
+						      		</td>
+						      		<td>
+						      			Unknown
+						      		</td>
+						      	</tr>
+						      </table>
 						    </div>
 						    <div id="menu3" class="tab-pane fade">
-						      <h3>Menu 3</h3>
-						      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						      <table border="1" width="1130">
+						      	<tr>
+						      		<td>
+						      		 <p>Thêm tags của bạn:</p>
+						      		 <input type="text" class="form-control" size="10%">
+					          		<button type="submit" class="btn btn-primary">THÊM TAGS</button><br><br>
+					          		<p>Sử dụng khoảng trắng để phân cách các tags. Sử dụng dấu nháy đơn (') cho cụm từ.</p><br>
+						      		</td>
+						      	</tr>
+						      </table>
 						    </div>
 						 </div>
 				</div>
