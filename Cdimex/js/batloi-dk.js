@@ -1,5 +1,5 @@
 window.onload = function(){
-    var inputs = document.forms['login'].getElementsByTagName('input');
+    var inputs = document.forms['dk'].getElementsByTagName('input');
     var run_onchange = false;
     function valid(){
       var errors = false; 

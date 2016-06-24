@@ -81,7 +81,7 @@
 										$sql=mysql_query("SELECT * FROM menu");
 										while ($row=mysql_fetch_array($sql)) {
 									?>
-								   <li class="active"><a href='#'><span><?php echo $row[1];?></span></a>
+								   <li class="active"><a href='Load-SanPham.php?page'><span><?php echo $row[1];?></span></a>
 								   <?php
 								   		$sql2=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]'");
 								   		$count=mysql_num_rows($sql2);

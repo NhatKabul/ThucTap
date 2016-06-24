@@ -32,7 +32,7 @@
 								  <div class="form-group">
 								    <div class="col-sm-offset-2 col-sm-10">
 								      <button type="button" class="btn btn-link">Quên mật khẩu</button>
-				       				 <button type="submit" id="submit" class="btn btn-primary">Đăng Nhập</button>
+				       				 <button type="submit" class="btn btn-primary">Đăng Nhập</button>
 								    </div>
 								  </div>
 							</form>
@@ -52,24 +52,24 @@
 				        <h3  align="center" class="modal-title" id="myModalLabel"><image src="image/icon/login.png" width="30" height="30">  Đăng ký tài khoản</h3>
 				        <!--<p align="center">Nếu bạn đã có tài khoản, <a href="#"data-toggle="modal" data-target="#modallogin" >Đăng Nhập </a><p>-->
 				      </div>
-				      <div class="modal-body">
-							<form class="form-horizontal" role="form">
+				      <div class="modal-body" name="dk">
+							<form class="form-horizontal" role="form" name="dk">
 								  <div class="form-group">
-								    <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
+								    <label for="inputEmail3" class="col-sm-4 control-label"> Nhập Email</label>
 								    <div class="col-sm-6">
-								      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+								      <input type="email" class="form-control" id="email" placeholder="Email">
 								    </div>
 								  </div>
 								  <div class="form-group">
-								    <label for="inputPassword3" class="col-sm-4 control-label">Mật Khẩu</label>
+								    <label for="inputPassword3" class="col-sm-4 control-label"> Nhập Password</label>
 								    <div class="col-sm-6">
-								      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+								      <input type="password" class="form-control" id="password" placeholder="Password">
 								    </div>
 								  </div>
 								  <div class="form-group">
 								    <label for="inputPassword3" class="col-sm-4 control-label">Họ và tên</label>
 								    <div class="col-sm-6">
-								      <input type="password" class="form-control" id="inputname" placeholder="name">
+								      <input type="password" class="form-control" id="inputname" placeholder="Name">
 								    </div>
 								  </div>
 								  <div class="form-group">
@@ -81,7 +81,7 @@
 								  <div class="form-group">
 								    <label for="inputPassword3" class="col-sm-4 control-label">Ngày sinh</label>
 								    <div class="col-sm-6">
-								      <input type="password" class="form-control" id="inputNS" placeholder="NS">
+								      <input type="password" class="form-control" id="inputNS" placeholder="Birthday">
 								    </div>
 								  </div>
 								   <div class="col-sm-offset-2 col-sm-10">
@@ -94,8 +94,9 @@
 								      </div>
 								    </div>
 								  <div class="form-group">
-								    <div class="col-sm-offset-4 col-sm-10">
-				       				 <button type="button" class="btn btn-primary" onclick="return checkemail(inputEmail3)">Đăng Ký</button>
+								    <div class="col-sm-offset-2 col-sm-10">
+								      <button type="button" class="btn btn-link">Quên mật khẩu</button>
+				       				 <button type="submit" id="submit" class="btn btn-primary">Đăng Ký</button>
 								    </div>
 								  </div>
 							</form>
