@@ -228,10 +228,10 @@
 						   
 						    </div>
 						    <div id="menu2" class="tab-pane fade">
-						      <table border="1"  width="1130" height="330">
+						      <table border="1"  bordercolor="#000000" width="1130" height="330">
 						      	<tr class="ctsp">
 						      		<td class="ctsp">
-						      			Mã hàng
+						      			Mã hàng:
 						      		</td>
 						      		<td>
 						      			Unknown
