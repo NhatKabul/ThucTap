@@ -9,115 +9,9 @@
 			<!-- end header -->
 			<!-- modal -->
 			<!-- modal Login -->
-			<div class="modal" id="modallogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				  <div class="modal-dialog">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				        <h3  align="center" class="modal-title" id="myModalLabel"><image src="image/icon/login.png" width="30" height="30">  Đăng Nhập</h3>
-				       <p align="center">Nếu bạn chưa có tài khoản, <a href="#" align="left" data-toggle="modal" data-target="#modalpugin">Đăng Ký</a><p>
-				      </div>
-				      <div class="modal-body">
-							<form class="form-horizontal" role="form">
-								  <div class="form-group">
-								    <label for="inputEmail3" class="col-sm-4 control-label"> Nhập Email</label>
-								    <div class="col-sm-6">
-								      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label for="inputPassword3" class="col-sm-4 control-label"> Nhập Password</label>
-								    <div class="col-sm-6">
-								      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <div class="col-sm-offset-2 col-sm-10">
-								      <div class="checkbox">
-								        <label>
-								          <input type="checkbox"> Lưu tài khoản
-								        </label>
-								      </div>
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <div class="col-sm-offset-2 col-sm-10">
-								      <button type="button" class="btn btn-link" data-dismiss="modal">Quên mật khẩu</button>
-				       				 <button type="button" class="btn btn-primary">Đăng Nhập</button>
-								    </div>
-								  </div>
-							</form>
-				      </div>
-				      <div class="modal-footer">
-				       
-				      </div>
-				    </div>
-				  </div>
-				</div>
-				<!-- modal dang ky-->
-				<div class="modal " id="modalpugin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				  <div class="modal-dialog">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				        <h3  align="center" class="modal-title" id="myModalLabel"><image src="image/icon/login.png" width="30" height="30">  Đăng ký tài khoản</h3>
-				        <p align="center">Nếu bạn đã có tài khoản, <a href="#"data-toggle="modal" data-target="#modallogin" >Đăng Nhập </a><p>
-				      </div>
-				      <div class="modal-body">
-							<form class="form-horizontal" role="form">
-								  <div class="form-group">
-								    <label for="inputEmail3" class="col-sm-4 control-label">Email</label>
-								    <div class="col-sm-6">
-								      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label for="inputPassword3" class="col-sm-4 control-label">Mật Khẩu</label>
-								    <div class="col-sm-6">
-								      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label for="inputPassword3" class="col-sm-4 control-label">Họ và tên</label>
-								    <div class="col-sm-6">
-								      <input type="password" class="form-control" id="inputname" placeholder="name">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label for="inputPassword3" class="col-sm-4 control-label">Giới tính</label>
-								    <div class="col-sm-6">
-								      <input type="password" class="form-control" id="inputsex" placeholder="Sex">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label for="inputPassword3" class="col-sm-4 control-label">Ngày sinh</label>
-								    <div class="col-sm-6">
-								      <input type="password" class="form-control" id="inputNS" placeholder="NS">
-								    </div>
-								  </div>
-								   <div class="col-sm-offset-2 col-sm-10">
-								      <div class="checkbox">
-								        <label>
-								          <input type="checkbox">
-								          <h4> <font size="2">Nhan Cac Thong Tin Va Chuong Trinh Khuyen Mai Qua Email</font></h4>
-								          <h4><font size="2">Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán theo điều kiện sử dụng và chính sách của Tiki.</font></h4>
-								        </label>
-								      </div>
-								    </div>
-								  <div class="form-group">
-								    <div class="col-sm-offset-4 col-sm-10">
-				       				 <button type="button" class="btn btn-primary">Đăng Ký</button>
-								    </div>
-								  </div>
-							</form>
-				      </div>
-				      <div class="modal-footer">
-				       
-				      </div>
-				    </div>
-				  </div>
-				</div>
-			</div>
+			<?php
+				include("Login.php");
+			?>
 			<!-- start content -->
 			<script type="text/javascript">
 					$(function(){
@@ -135,11 +29,11 @@
 				</div>
 			<div class="container row">
 				<div class="navbar">
-					<div class="col-xs-12">
-						<br><p class="font-footer2"><font>ĐIỀU KHOẢN SỬ DỤNG</font></p><br>
+					<div class="posdetail">
+					  	<ul class="nav nav-tabs">
+							    <li class="active"><a data-toggle="tab" href="#menu1"><font class="font-detail">Điều Khoản Sử Dụng</font></a></li>
+						</ul>
 					</div>
-					<div class="col-xs-12 border"></div>
-					<div class="container"><font class="font-tintuc">
 					<div class="font-chu2">
 						Chào mừng quí khách đến mua sách tại CDIMEX. Sau khi truy cập vào website CDIMEX để tham khảo hoặc mua sắm, 
 						quí khách đã đồng ý tuân thủ và ràng buộc với những quy định của CDIMEX. Vui lòng xem kỹ các quy định và hợp 
@@ -172,7 +66,6 @@
 						thất phát sinh. Ngoài ra, chúng tôi không cho phép các tổ chức, cá nhân khác quảng bá sản phẩm tại website CDIMEX mà chưa 
 						có sự đồng ý bằng văn bản từ CDIMEX. Các thỏa thuận và quy định trong Điều khoản sử dụng có thể thay đổi vào 
 						bất cứ lúc nào nhưng sẽ được CDIMEX thông báo cụ thể trên website CDIMEX.
-					</div>
 					</div>
 				</div>
 			</div>

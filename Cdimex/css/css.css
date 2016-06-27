@@ -11,7 +11,7 @@
     font-family: "Times New Roman", Times, serif;
     color:#555555;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
     
 }
 .box_produt_hot {
@@ -20,12 +20,9 @@
     width: 100%;
 }
 
-.ctsp{
-    border: 1px;
-    text-align: center;
-  
-
-
+* {
+    margin: 0;
+    padding: 0;
 }
 .clearfix {
     display: block;

@@ -81,7 +81,7 @@
 										$sql=mysql_query("SELECT * FROM menu");
 										while ($row=mysql_fetch_array($sql)) {
 									?>
-								   <li class="active"><a href='Load-SanPham.php?page=<?php echo $row[0] ?>'><span><?php echo $row[1];?></span></a>
+								   <li class="active"><a href='Load-SanPham-Menucha.php?page=<?php echo $row[0] ?>'><span><?php echo $row[1];?></span></a>
 								   <?php
 								   		$sql2=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]'");
 								   		$count=mysql_num_rows($sql2);
@@ -95,7 +95,7 @@
 																$sql1=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]' limit 0,10");
 																while ($row1=mysql_fetch_array($sql1)) {
 															?>
-															<button class="btn btn-link menu" onclick="location.href='index.php'"><?php echo $row1[0];?></button>
+															<button class="btn btn-link menu" onclick="location.href='Load-SanPham-Menucon.php?page=<?php echo $row1[0];?>'"><?php echo $row1[0];?></button>
 															<?php
 															}
 															?>
@@ -105,7 +105,7 @@
 																$sql1=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]' limit 11,20");
 																while ($row1=mysql_fetch_array($sql1)) {
 															?>
-															<button class="btn btn-link menu" onclick="location.href='index.php'"><?php echo $row1[0];?></button>
+															<button class="btn btn-link menu" onclick="location.href='Load-SanPham-Menucon.php?page=<?php echo $row1[0];?>"><?php echo $row1[0];?></button>
 															<?php
 															}
 															?>
@@ -115,7 +115,7 @@
 																$sql1=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]' limit 21,30");
 																while ($row1=mysql_fetch_array($sql1)) {
 															?>
-															<button class="btn btn-link menu" onclick="location.href='index.php'"><?php echo $row1[0];?></button>
+															<button class="btn btn-link menu" onclick="location.href='Load-SanPham-Menucon.php?page=<?php echo $row1[0];?>"><?php echo $row1[0];?></button>
 															<?php
 															}
 															?>
@@ -125,7 +125,7 @@
 																$sql1=mysql_query("SELECT * FROM menu_detail where menu_id='$row[0]' limit 31,40");
 																while ($row1=mysql_fetch_array($sql1)) {
 															?>
-															<button class="btn btn-link menu" onclick="location.href='index.php'"><?php echo $row1[0];?></button>
+															<button class="btn btn-link menu" onclick="location.href='Load-SanPham-Menucon.php?page=<?php echo $row1[0];?>"><?php echo $row1[0];?></button>
 															<?php
 															}
 															?>
