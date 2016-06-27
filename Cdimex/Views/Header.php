@@ -10,7 +10,7 @@
 						    </span></b></a></li>
 					      </ul>
 					       <ul class="nav navbar-nav">
-					        <li><a href="show_cart.php"><img src="image/icon/hotline.jpg" height="20"><b><font color="#3366FF"> Hỗ Trợ Khách Hàng</font> </b></a></li>
+					        <li><a href="hotro.php"><img src="image/icon/hotline.jpg" height="20"><b><font color="#3366FF"> Hỗ Trợ Khách Hàng</font> </b></a></li>
 					      </ul>
 					      <form class="navbar-form navbar-left" role="search">
 					        <div class="input-group">
@@ -21,7 +21,7 @@
 					        </div>
 					      </form>
 					        <ul class="nav navbar-nav">
-					        <li><a href="show_cart.php"><img src="image/icon/phone.png" height="20"><b> <font color="#3366FF">HotLine:<font color="#ff0000">(08)39974755</font></font> 
+					        <li><a href=""><img src="image/icon/phone.png" height="20"><b> <font color="#3366FF">HotLine:<font color="#ff0000">(08)39974755</font></font> 
 						    </b></a></li>
 					      </ul>
 					      <ul class="nav navbar-nav navbar-right">

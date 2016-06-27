@@ -12,14 +12,20 @@
     color:#555555;
     font-weight: bold;
     font-size: 15px;
-    
 }
 .box_produt_hot {
     float: left;
     margin-top: 30px;
     width: 100%;
 }
-
+.table-hotro{
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    color: #363636;
+}
+.mau-hotro{
+    background-color: #A2B5CD;
+}
 * {
     margin: 0;
     padding: 0;
