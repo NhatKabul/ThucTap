@@ -6,17 +6,28 @@
 					    <!-- Collect the nav links, forms, and other content for toggling -->
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					      <ul class="nav navbar-nav">
-					        <li><a href="Giohang.php"><img src="image/icon/images.png" height="20"><b> <font color="#3366FF">Giỏ Hàng</font> <span class="badge">0
-						    </span></b></a></li>
+					        <li><a href="Giohang.php"><img src="image/icon/images.png" height="20"><b> <font color="#3366FF">Giỏ Hàng</font> <span class="badge">
+					        	<?php
+			                      session_start();
+			                      if(isset($_SESSION['giohang']))
+			                      {
+			                        echo count($_SESSION['giohang']);
+			                      }
+			                      else
+			                      {
+			                        echo "0";
+			                      }
+			                    ?>
+					        </span></b></a></li>
 					      </ul>
 					       <ul class="nav navbar-nav">
 					        <li><a href="hotro.php"><img src="image/icon/hotline.jpg" height="20"><b><font color="#3366FF"> Hỗ Trợ Khách Hàng</font> </b></a></li>
 					      </ul>
-					      <form class="navbar-form navbar-left" role="search">
+					      <form class="navbar-form navbar-left" role="search" action="index.php">
 					        <div class="input-group">
 					          <tr>
-					          	<input type="text" class="form-control" placeholder="Search" size="50%">
-					          	<span class="input-group-btn"><button type="submit" class="btn btn-primary">Tìm</button></span>
+					          	<input type="text" class="form-control" placeholder="Nhập Từ Khóa..." size="50%" name="key">
+					          	<span class="input-group-btn"><button type="submit"  class="btn btn-primary">Tìm</button></span>
 					          </tr>
 					        </div>
 					      </form>

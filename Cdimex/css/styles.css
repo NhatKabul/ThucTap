@@ -164,6 +164,9 @@
 			font-weight: bold;
 			text-align: center;
 		}
+.center{
+	margin: 0px 25%;
+}
 .font-detail{
 	text-transform: uppercase;
 }

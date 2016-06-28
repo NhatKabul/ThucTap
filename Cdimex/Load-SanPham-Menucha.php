@@ -45,7 +45,16 @@
 				  <section>
 				  	<?php
 				  		$sql1=mysql_query("SELECT tensach, dongia, giamgia, hinhanh FROM products pd, menu_detail md, menu m WHERE m.id=md.menu_id AND md.tenmenu=pd.detail_id AND md.menu_id='$page'");
-				  		while ($row1=mysql_fetch_array($sql1)) {
+				  		$sodong = 4;
+				  		$tongsodong = mysql_num_rows($sql1);
+				  		$tongsotrang = ceil($tongsodong/$sodong);
+				  		if(isset($_GET['p']))
+				  			$p=$_GET['p'];
+				  		else
+				  			$p=1;
+				  		$vitri=($p-1)*$sodong;
+				  		$sql2=mysql_query("SELECT tensach, dongia, giamgia, hinhanh FROM products pd, menu_detail md, menu m WHERE m.id=md.menu_id AND md.tenmenu=pd.detail_id AND md.menu_id='$page' LIMIT $vitri,$sodong");
+				  		while ($row1=mysql_fetch_array($sql2)) {
 				  			$giagiam=$row1[1] * $row1[2]/100;
 				  	?>
 				    <div class="col-md-3">
@@ -63,6 +72,70 @@
 				}
 				?>
 				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<ul class="pagination">
+						<?php
+							$url=$_SERVER['PHP_SELF'];
+								if($p>1)
+								{
+									$pages=$p-1;
+									$prev="
+									<li>
+										<a href='$url?page=$page&p=$pages'>
+										    <span aria-hidden='true'>&lsaquo;</span>
+										</a>
+									</li>";
+									$first="
+									<li>
+										<a href='$url?page=$page&p=1'>
+										    <span aria-hidden='true'>&laquo;</span>
+										</a>
+									</li>";
+								}
+								else
+								{
+									$prev=' ';
+									$first=' ';
+								}
+								if($p<$tongsotrang)
+								{
+									$pages=$p+1;
+									$next="
+									<li>
+										<a href='$url?page=$page&p=$pages'>
+										    <span aria-hidden='true'>&rsaquo;</span>
+										</a>
+									</li>";
+									$last="
+									<li>
+										<a href='$url?page=$page&p=$tongsotrang'>
+										    <span aria-hidden='true'>&raquo;</span>
+										</a>
+									</li>";
+								}
+								else
+								{
+									$next=' ';
+									$last=' ';
+								}
+								echo $first.$prev;
+								for($i=1;$i<=$tongsotrang;$i++)
+								{
+									if($i==$p)
+									{
+										echo "<li class='active'><a> $i <span class='sr-only'>(current)</span></a></li>";
+									}
+									else
+									{
+										echo "<li><a href='$url?page=$page&p=$i'>$i</a></li>";
+									}
+								}
+								echo $next.$last;
+								?>
+						</ul>
+					</div>
+					<div class="col-md-4"></div>
 			</div>
 			<!-- end content -->
 			<!-- start footer -->

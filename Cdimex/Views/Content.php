@@ -11,6 +11,48 @@
 			<div class="row">
 				<div class="col-xs-9 navbar-left">
 				<?php
+					if(isset($_GET['key']))
+					{ ?>
+						<div class="posdetail">
+						  	<ul class="nav nav-tabs">
+								    <li class="active"><a data-toggle="tab" href="#menu1"><font class="font-detail">
+								    Tìm Kiếm
+								    </font></a></li>
+							</ul>
+						</div>
+						<div class="posdetail">
+						  	<img src="image/banner/banner1.jpg" width="100%" height="250px">
+						</div>
+						<section>
+					  	<?php
+					  		$key=$_GET['key'];
+					  		$sql1=mysql_query("SELECT tensach, dongia, giamgia, hinhanh  FROM products WHERE tensach LIKE '%$key%'");
+					  		$sodong = 4;
+					  		$tongsodong = mysql_num_rows($sql1);
+					  		$tongsotrang = ceil($tongsodong/$sodong);
+					  		if(isset($_GET['p']))
+					  			$p=$_GET['p'];
+					  		else
+					  			$p=1;
+					  		$vitri=($p-1)*$sodong;
+					  		$sql2=mysql_query("SELECT tensach, dongia, giamgia, hinhanh  FROM products WHERE tensach LIKE '%$key%' LIMIT $vitri,$sodong");
+					  		while ($row1=mysql_fetch_array($sql2)) {
+					  			$giagiam=$row1[1] * $row1[2]/100;
+					  	?>
+					    <div class="col-md-3">
+					      <a href="Chitietsanpham.php"><img src="<?php echo $row1[3]; ?>" height="200px" width="100%"></a>
+					      <p class="pos-tensach"><font class="font-tensach"><?php echo $row1[0]; ?></font></p>
+					      <p class="pos-giasach"><font class="font-giasach"><?php echo $row1[1] - $giagiam; ?> &#8363</font><font class="font-giamgia">- <?php echo $row1[2]; ?>%</font></p>
+					      <p class="pos-giasach"><font class="font-giadau"><?php echo $row1[1]; ?> &#8363</font></p>
+					      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+					    </div>
+					    <?php
+						}
+						?>
+					  	</section>
+					<?php }
+					else
+					{
 					$sql=mysql_query("SELECT * FROM menu");
 					while ($row=mysql_fetch_array($sql)) {
 				?>
@@ -24,7 +66,7 @@
 				  </div>
 				  <section class="center slider">
 				  	<?php
-				  		$sql1=mysql_query("SELECT tensach, dongia, giamgia, hinhanh FROM products pd, menu_detail md, menu m WHERE m.id=md.menu_id AND md.tenmenu=pd.detail_id AND md.menu_id='$row[0]' LIMIT 0,10");
+				  		$sql1=mysql_query("SELECT tensach, dongia, giamgia, hinhanh, pd.id FROM products pd, menu_detail md, menu m WHERE m.id=md.menu_id AND md.tenmenu=pd.detail_id AND md.menu_id='$row[0]' LIMIT 0,10");
 				  		while ($row1=mysql_fetch_array($sql1)) {
 				  			$giagiam=$row1[1] * $row1[2]/100;
 				  	?>
@@ -33,14 +75,15 @@
 				      <p class="pos-tensach"><font class="font-tensach"><?php echo $row1[0]; ?></font></p>
 				      <p class="pos-giasach"><font class="font-giasach"><?php echo $row1[1] - $giagiam; ?> &#8363</font><font class="font-giamgia">- <?php echo $row1[2]; ?>%</font></p>
 				      <p class="pos-giasach"><font class="font-giadau"><?php echo $row1[1]; ?> &#8363</font></p>
-				      <p class="btn-themgiohang"><button type="button" class="btn btn-default">Thêm Vào Giỏ Hàng</button></p>
+				      <p class="btn-themgiohang"><button type="button" class="btn btn-default" onclick="location.href='add.php?id=<?php echo $row1[4]; ?>'">Thêm Vào Giỏ Hàng</button></p>
 				    </div>
 				    <?php
 					}
 					?>
 				  </section>
-				  <a  href="Load-SanPham.php?page=<?php echo $row[0] ?>"><p align="center">Xem tất cả</p></a>
+				  <a  href="Load-SanPham-Menucha.php?page=<?php echo $row[0] ?>"><p align="center">Xem tất cả</p></a>
 				<?php
+					}
 				}
 				?>
 				</div>
