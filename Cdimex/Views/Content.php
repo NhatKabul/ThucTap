@@ -66,12 +66,12 @@
 				  </div>
 				  <section class="center slider">
 				  	<?php
-				  		$sql1=mysql_query("SELECT tensach, dongia, giamgia, hinhanh, pd.id FROM products pd, menu_detail md, menu m WHERE m.id=md.menu_id AND md.tenmenu=pd.detail_id AND md.menu_id='$row[0]' LIMIT 0,10");
+				  		$sql1=mysql_query("SELECT tensach, dongia, giamgia, hinhanh FROM products pd, menu_detail md, menu m WHERE m.id=md.menu_id AND md.tenmenu=pd.detail_id AND md.menu_id='$row[0]' LIMIT 0,10");
 				  		while ($row1=mysql_fetch_array($sql1)) {
 				  			$giagiam=$row1[1] * $row1[2]/100;
 				  	?>
 				    <div>
-				      <a href="Chitietsanpham.php?id=<?php echo $row1[4] ?>"><img src="<?php echo $row1[3]; ?>" height="200px" width="100%"></a>
+				      <a href="Chitietsanpham.php"><img src="<?php echo $row1[3]; ?>" height="200px" width="100%"></a>
 				      <p class="pos-tensach"><font class="font-tensach"><?php echo $row1[0]; ?></font></p>
 				      <p class="pos-giasach"><font class="font-giasach"><?php echo $row1[1] - $giagiam; ?> &#8363</font><font class="font-giamgia">- <?php echo $row1[2]; ?>%</font></p>
 				      <p class="pos-giasach"><font class="font-giadau"><?php echo $row1[1]; ?> &#8363</font></p>
