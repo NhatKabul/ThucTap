@@ -81,25 +81,33 @@
 						  </div>
 						</div>
 				    </div> <!-- /col-md-3 -->
-				    <div class="col-md-4">
-				    	<p class="pos-tensach"><font class="tieude">Tên Sách: </font><font class="font-tensachdetail">Sách Giáo Khoa</font></p>
-					    <p class="pos-giasach"><font class="tieude">Tác Giả: </font><font class="name">ABC</font></p>
-					    <p class="pos-giasach"><font class="tieude">Nhà Xuất Bản: </font><font class="name">Kim Đồng</font></p>
-					    <p class="pos-giasach"><font class="tieude">Năm Xuất Bản: </font><font class="name">1995</font></p>
-					    <p class="pos-giasach"><font class="tieude">Giá: </font><font class="font-giasachdetail">400000 &#8363</font><font class="font-giamgia">-40%</font><font class="font-giadau">500000 &#8363</font></p>
-					    <p class="pos-giasach"><font class="tieude">Tình Trạng: </font><font class="conhang">Còn hàng</font></p></p>
-				    </div>
-				    <div class="col-md-5">
-				    	<p>Giới thiệu</p>
-				    	<font class="seo">
-				    		Sách báo, tạp chí, xuất bản phẩm và tài liệu khoa học kỹ thuật, văn hóa phục vụ cho các viện, trường đại học và thư viện trong nước.- 
-							Các loại vật tư, thiết bị, hàng hóa phục vụ ngành văn hóa như: nhạc cụ, thiết bị âm thanh ánh sáng dùng cho biểu diễn, hội nghị,
-							phòng thu… Tranh, tượng, đồ gỗ, sản phẩm mỹ nghệ, các chương trình âm thanh, chương trình hình ảnh động, các ấn phẩm, sản phẩm quảng cáo. - Vật tư thiết bị, nguyên vật liệu phục vụ sản xuất.
-							Vật tư thiết bị ngành in, các ấn phẩm in trên các chất liệu khác nhau.- Trang thiết bị văn phòng, văn hóa phẩm, vật liệu trang trí nội thất và các mặt hàng tiêu dùng khác.
-							Mua bán, cho thuê văn phòng làm việc.
-							Thi công thực hiện việc trang âm (cách âm, hút âm) cho phòng thu, nhà hát, phòng hội nghị… Hoàn thiện nội thất công trình.- Các sản phẩm văn hóa khác theo qui định của pháp luật.
-				    	</font>
-				    </div>
+				    
+				    <?php
+				    	$id=$_GET['id'];
+				    	$sql=mysql_query("SELECT * FROM products WHERE id=$id");
+				    	while ($row=mysql_fetch_array($sql)) {?>
+						    <div class="col-md-4">
+						    	<p class="pos-tensach"><font class="tieude">Tên Sách: </font><font class="font-tensachdetail"><?php echo $row[1]; ?></font></p>
+							    <p class="pos-giasach"><font class="tieude">Tác Giả: </font><font class="name">ABC</font></p>
+							    <p class="pos-giasach"><font class="tieude">Nhà Xuất Bản: </font><font class="name">Kim Đồng</font></p>
+							    <p class="pos-giasach"><font class="tieude">Năm Xuất Bản: </font><font class="name">1995</font></p>
+							    <p class="pos-giasach"><font class="tieude">Giá: </font><font class="font-giasachdetail">400000 &#8363</font><font class="font-giamgia">-40%</font><font class="font-giadau">500000 &#8363</font></p>
+							    <p class="pos-giasach"><font class="tieude">Tình Trạng: </font><font class="conhang">Còn hàng</font></p></p>
+						    </div>
+						    <div class="col-md-5">
+						    	<p>Giới thiệu</p>
+						    	<font class="seo">
+						    		Sách báo, tạp chí, xuất bản phẩm và tài liệu khoa học kỹ thuật, văn hóa phục vụ cho các viện, trường đại học và thư viện trong nước.- 
+									Các loại vật tư, thiết bị, hàng hóa phục vụ ngành văn hóa như: nhạc cụ, thiết bị âm thanh ánh sáng dùng cho biểu diễn, hội nghị,
+									phòng thu… Tranh, tượng, đồ gỗ, sản phẩm mỹ nghệ, các chương trình âm thanh, chương trình hình ảnh động, các ấn phẩm, sản phẩm quảng cáo. - Vật tư thiết bị, nguyên vật liệu phục vụ sản xuất.
+									Vật tư thiết bị ngành in, các ấn phẩm in trên các chất liệu khác nhau.- Trang thiết bị văn phòng, văn hóa phẩm, vật liệu trang trí nội thất và các mặt hàng tiêu dùng khác.
+									Mua bán, cho thuê văn phòng làm việc.
+									Thi công thực hiện việc trang âm (cách âm, hút âm) cho phòng thu, nhà hát, phòng hội nghị… Hoàn thiện nội thất công trình.- Các sản phẩm văn hóa khác theo qui định của pháp luật.
+						    	</font>
+						    </div>
+				    	<?php } 
+				    ?>
+				    
 				</div>
 				<div class="col-md-12 posdetail">
 						 <ul class="nav nav-tabs">
