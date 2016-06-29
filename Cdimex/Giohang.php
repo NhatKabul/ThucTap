@@ -75,10 +75,10 @@
 								       	<tr>
 						                  <td align="center" width="30%"><?php echo $row[1]; ?></td>
 						                  <td align="center" width="15%"><img src="<?php echo $row[7]; ?>" width="70" height="70"></td>
-						                  <td align="center" width="13%"><?php echo number_format($row[2],0,'.',',')." VNĐ"; ?></td>
+						                  <td align="center" width="13%"><?php echo number_format($row[2],0,'.',','); ?> &#8363</td>
 						                  <td align="center" width="10%"><?php if($row[3]>0)echo "Còn Hàng"; else echo "Hết Hàng"; ?></td>
 						                  <td align="center" width="10%"><input class="form-control" type="number" size="10" value="<?php echo $ls; ?>" name="soluong[<?php echo $id;?>]"/></td>
-						                  <td align="center" width="15%"><?php echo number_format($tong=$row[2]*$ls,0,'.',',')." VNĐ"; ?></td>
+						                  <td align="center" width="15%"><?php echo number_format($tong=$row[2]*$ls,0,'.',','); ?> &#8363</td>
 						                  <td align="center" width="7%"><a href="Xoagiohang-dong.php?id=<?php echo $row[0]; ?>"><img src="image/icon/iconX.png" width="20" height="20"></a></td>
 						                </tr>
 					        <?php
@@ -88,7 +88,7 @@
 			            	} ?>
 			            	<tr>
 			            	  <td colspan="4" align="center">
-			            	  Tổng Thanh Toán: <?php echo number_format($tongTT,0,'.',',')." VNĐ"; ?> <button class="btn btn-primary">Thanh Toán</button>
+			            	  Tổng Thanh Toán: <?php echo number_format($tongTT,0,'.',','); ?> &#8363 <button class="btn btn-primary">Thanh Toán</button>
 			                  </td>
 			                  <td colspan="3" align="right">
 			                  <a href="Xoagiohang.php" class="btn btn-primary">Xóa Hết Giỏ Hàng</a></button> <button type="submit" name="capnhat" class="btn btn-primary">Cập Nhật Giỏ Hàng</button>

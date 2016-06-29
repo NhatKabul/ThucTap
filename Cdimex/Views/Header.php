@@ -39,8 +39,57 @@
 					        <li class="dropdown">
 					          <a class="dropdown-toggle"><b><font color="#3366FF">Đăng Nhập</font><b><span class="caret"></span></a>
 					          <ul class="dropdown-menu">
-					            <li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modallogin"><image src="image/icon/dn.jpg" width="20" height="20"> Đăng Nhập</a></li>
-					            <li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modalpugin"><image src="image/icon/dk.png" width="20" height="20"> Đăng Ký</a></li>
+					          	<?php
+					          	include("ketnoi.php");
+								if(isset($_SESSION['lv']) && isset($_SESSION['email']))
+			                      {
+			                        if($_SESSION['lv']!='1')
+									{
+								    ?>
+								                        <li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modaldmk"><image src="image/icon/dn.jpg" width="20" height="20"> Đổi Mật Khẩu</a></li>
+					            						<li><a class="btn btn-link btn-sl menu" href="Dangxuat.php"><image src="image/icon/dn.jpg" width="20" height="20"> Đăng Xuất</a></li>
+								    <?php }
+									else  
+									{
+								    ?>			
+								    					<li><a class="btn btn-link btn-sl menu" href="admin.php"><image src="image/icon/dn.jpg" width="20" height="20"> Quản Lý Trang</a></li>
+								                        <li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modaldmk"><image src="image/icon/dn.jpg" width="20" height="20"> Đổi Mật Khẩu</a></li>
+					            						<li><a class="btn btn-link btn-sl menu" href="Dangxuat.php"><image src="image/icon/dn.jpg" width="20" height="20"> Đăng Xuất</a></li>
+								    <?php }
+			                      }
+								else
+								{
+									if (isset($_POST['btnDN']))
+									{
+										if(($_POST['txtEmail'] && $_POST['txtPW'])!= "")
+										{
+											$pw=$_POST['txtPW'];
+											$pw=md5($pw);
+											$query = mysql_query('SELECT * FROM user WHERE email="'.$_POST['txtEmail'].'"');
+											$row = mysql_fetch_array($query);
+											if ($pw == $row[1]) {
+												$_SESSION['email'] = $_POST['txtEmail'];
+												$_SESSION['lv'] = $row[3];
+												echo "<script language='javascript'> confirm('Thành Công');</script>";
+												header('location: index.php'); 
+											}
+											else
+											{ ?>
+												<li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modallogin"><image src="image/icon/dn.jpg" width="20" height="20"> Đăng Nhập</a></li>
+					            				<li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modalpugin"><image src="image/icon/dk.png" width="20" height="20"> Đăng Ký</a></li>
+					            				<script language='javascript'> confirm('Thất Bại');</script>
+										<?php 
+											}
+										}
+									}
+									else
+									{?>
+										<li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modallogin"><image src="image/icon/dn.jpg" width="20" height="20"> Đăng Nhập</a></li>
+					            		<li><a class="btn btn-link btn-sl menu" data-toggle="modal" data-target="#modalpugin"><image src="image/icon/dk.png" width="20" height="20"> Đăng Ký</a></li>
+									<?php }
+								}
+							?>
+					            		
 					          </ul>
 					        </li>
 					      </ul>

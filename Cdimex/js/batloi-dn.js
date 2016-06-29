@@ -1,5 +1,5 @@
 window.onload = function(){
-    var inputs = document.forms['dk'].getElementsByTagName('input');
+    var inputs = document.forms['dn'].getElementsByTagName('input');
     var run_onchange = false;
     function valid(){
       var errors = false; 
@@ -17,18 +17,6 @@ window.onload = function(){
         // Kiểm tra rỗng
         if(value == ''){
           span.innerHTML ='Thông tin được yêu cầu';
-        }else{
-        // Kiểm tra các trường hợp khác
-          if(id == 'txtEmail'){
-            if(reg_mail.test(value) == false){ span.innerHTML ='Email không hợp lệ (ví dụ: abc@gmail.com)';}
-            var email =value;
-          }
-          if(id == 'txtPW'){
-            if(value.length <6){span.innerHTML ='Password phải từ 6 ký tự';}
-            var pass =value;
-          }
-          // Kiểm tra password nhập lại
-          if(id == 'txtRPW' && value != pass){span.innerHTML ='Password nhập lại chưa đúng';}
         }
         
         // Nếu có lỗi thì span vào hồ sơ, chạy onchange, submit return false, highlight border
@@ -44,7 +32,7 @@ window.onload = function(){
     }// end valid()
     
     // Chay ham kiem tra
-    var register = document.getElementById('dk');
+    var register = document.getElementById('dn');
     register.onclick = function(){
       return valid();
     }

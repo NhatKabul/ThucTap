@@ -14,6 +14,7 @@
 <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
 <script src="js/batloi-dk.js" type="text/javascript"></script>
+<script src="js/batloi-dn.js" type="text/javascript"></script>
 <script src="js/jquery-2.2.2.min.js" type="text/javascript"></script>
 <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
